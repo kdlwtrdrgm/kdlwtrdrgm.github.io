@@ -653,7 +653,8 @@ contract Force {
             id: decodeURI(location.pathname),
             distractionFreeMode: 'false',
             language: 'zh-CN',
-            perPage: parseInt('10',10)
+            proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token',
+            perPage: parseInt('10S',10)
         })
         gitalk.render('comments')
     })
