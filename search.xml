@@ -23,6 +23,56 @@
     
     
     <entry>
+      <title>跨链与侧链</title>
+      <link href="//%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"/>
+      <url>//%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/</url>
+      
+        <content type="html"><![CDATA[<h1 id="跨链与侧链"><a href="#跨链与侧链" class="headerlink" title="跨链与侧链"></a>跨链与侧链</h1><h2 id="跨链"><a href="#跨链" class="headerlink" title="跨链"></a>跨链</h2><p>简单的说跨链就是解决如何把一个条链上的Token转移到另外一条链上。本质上是一套链与链之间的清算机制，清算的本质就是精准记账。</p><p>为什么要跨链?</p><p>1、不同链上的资产交换</p><p>2、多个场景打通的token互兑</p><p>3、跨越多个区块链网络达成的智能合约</p><p>4、一条链上资产被抵押或者锁定，能否用于抵押另一条链上的商品与服务，这需要实现链之间的通信与确认</p><p>如何实现跨链</p><p>1、分布式私钥控制</p><p>2、用侧链&amp;中继链</p><p>3、公证人模式</p><p>4、哈希锁定模式</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>闪电贷攻防和智能合约审计</title>
+      <link href="//%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"/>
+      <url>//%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="闪电贷攻防和智能合约审计"><a href="#闪电贷攻防和智能合约审计" class="headerlink" title="闪电贷攻防和智能合约审计"></a>闪电贷攻防和智能合约审计</h1><h2 id="什么是闪电贷"><a href="#什么是闪电贷" class="headerlink" title="什么是闪电贷"></a>什么是闪电贷</h2><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723173933012.png"></p><p>本身是一个很好的金融创新，必须在智能合约中操作，原子性，最小单位执行，不成功就失败，要么成功要么失败</p><p>闪电贷和闪电兑</p><p>闪电贷AAVE项目</p><p>闪电兑函数UniswapV2项目</p><p>乐观转账</p><p>区别在于data参数有没有变化</p><h2 id="闪电贷攻击事件分析"><a href="#闪电贷攻击事件分析" class="headerlink" title="闪电贷攻击事件分析"></a>闪电贷攻击事件分析</h2><h2 id="闪电贷攻击防范建议"><a href="#闪电贷攻击防范建议" class="headerlink" title="闪电贷攻击防范建议"></a>闪电贷攻击防范建议</h2><h2 id="智能合约审计"><a href="#智能合约审计" class="headerlink" title="智能合约审计"></a>智能合约审计</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello Ethernaut第0关练习</title>
       <link href="//Ethernaut/0.Ethernaut-Hello%20Ethernaut/"/>
       <url>//Ethernaut/0.Ethernaut-Hello%20Ethernaut/</url>
@@ -140,56 +190,6 @@
         <tags>
             
             <tag> 靶场 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>闪电贷攻防和智能合约审计</title>
-      <link href="//%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"/>
-      <url>//%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/</url>
-      
-        <content type="html"><![CDATA[<h1 id="闪电贷攻防和智能合约审计"><a href="#闪电贷攻防和智能合约审计" class="headerlink" title="闪电贷攻防和智能合约审计"></a>闪电贷攻防和智能合约审计</h1><h2 id="什么是闪电贷"><a href="#什么是闪电贷" class="headerlink" title="什么是闪电贷"></a>什么是闪电贷</h2><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723173933012.png"></p><p>本身是一个很好的金融创新，必须在智能合约中操作，原子性，最小单位执行，不成功就失败，要么成功要么失败</p><p>闪电贷和闪电兑</p><p>闪电贷AAVE项目</p><p>闪电兑函数UniswapV2项目</p><p>乐观转账</p><p>区别在于data参数有没有变化</p><h2 id="闪电贷攻击事件分析"><a href="#闪电贷攻击事件分析" class="headerlink" title="闪电贷攻击事件分析"></a>闪电贷攻击事件分析</h2><h2 id="闪电贷攻击防范建议"><a href="#闪电贷攻击防范建议" class="headerlink" title="闪电贷攻击防范建议"></a>闪电贷攻击防范建议</h2><h2 id="智能合约审计"><a href="#智能合约审计" class="headerlink" title="智能合约审计"></a>智能合约审计</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 区块链 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 区块链 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>跨链与侧链</title>
-      <link href="//%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"/>
-      <url>//%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/</url>
-      
-        <content type="html"><![CDATA[<h1 id="跨链与侧链"><a href="#跨链与侧链" class="headerlink" title="跨链与侧链"></a>跨链与侧链</h1><h2 id="跨链"><a href="#跨链" class="headerlink" title="跨链"></a>跨链</h2><p>简单的说跨链就是解决如何把一个条链上的Token转移到另外一条链上。本质上是一套链与链之间的清算机制，清算的本质就是精准记账。</p><p>为什么要跨链?</p><p>1、不同链上的资产交换</p><p>2、多个场景打通的token互兑</p><p>3、跨越多个区块链网络达成的智能合约</p><p>4、一条链上资产被抵押或者锁定，能否用于抵押另一条链上的商品与服务，这需要实现链之间的通信与确认</p><p>如何实现跨链</p><p>1、分布式私钥控制</p><p>2、用侧链&amp;中继链</p><p>3、公证人模式</p><p>4、哈希锁定模式</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 区块链 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 区块链 </tag>
             
         </tags>
       
@@ -640,6 +640,33 @@
         <tags>
             
             <tag> 靶场 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typora Theme主题介绍</title>
+      <link href="//Markdown/all/"/>
+      <url>//Markdown/all/</url>
+      
+        <content type="html"><![CDATA[<p>Front-matter 选项详解<br>Front-matter 选项中的所有内容均为非必填的。但我仍然建议至少填写 title 和 date 的值。</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210802195444482.png"><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210802195502305.png"></p><p>注意:</p><ol><li>如果 img 属性不填写的话，文章特色图会根据文章标题的 hashcode 的值取余，然后选取主题中对应的特色图片，从而达到让所有文章都的特色图各有特色。</li><li>date 的值尽量保证每篇文章是唯一的，因为本主题中 Gitalk 和 Gitment 识别 id 是通过 date 的值来作为唯一标识的。</li><li>如果要对文章设置阅读验证密码的功能，不仅要在 Front-matter 中设置采用了 SHA256 加密的 password 的值，还需要在主题的 _config.yml 中激活了配置。有些在线的 SHA256 加密的地址，可供你使用：开源中国在线工具、chahuo、站长工具。</li><li>您可以在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则</li></ol><p>以下为文章的 Front-matter 示例。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> Markdown </tag>
             
         </tags>
       
