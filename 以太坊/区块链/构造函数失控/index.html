@@ -44,9 +44,9 @@
 
 <script src="/js/iconfont.js?v=1.1.0" ></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="KW's blog" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="KW's blog" type="application/atom+xml">
 </head>
 <div style="display: none">
   <input class="theme_disqus_on" value="false">
@@ -286,7 +286,7 @@
            data-tag="随笔"
            data-author="" >
             <span class="post-title" title="钓鱼式攻击">钓鱼式攻击</span>
-            <span class="post-date" title="2021-08-03 11:33:59" style="padding-right: 10px;">2021/08/03</span>
+            <span class="post-date" title="2021-08-03 11:14:23" style="padding-right: 10px;">2021/08/03</span>
         </a>
         
         <a  class="全部文章 以太坊 "
@@ -294,7 +294,7 @@
            data-tag="随笔"
            data-author="" >
             <span class="post-title" title="构造函数失控">构造函数失控</span>
-            <span class="post-date" title="2021-08-03 10:33:59" style="padding-right: 10px;">2021/08/03</span>
+            <span class="post-date" title="2021-08-03 10:32:26" style="padding-right: 10px;">2021/08/03</span>
         </a>
         
         <a  class="全部文章 以太坊 "
@@ -566,7 +566,7 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2021-08-03 22:40:50'>2021-08-03 10:33</time>
+            发布时间 : <time class="date" title='最后更新: 2021-08-03 22:47:15'>2021-08-03 10:32</time>
         
     </div>
     <div class="article-meta">
@@ -652,9 +652,9 @@
 <p>由于Solidity v0.4.24算法，合约的管理器功能是construct()。但是，在Rubixi合约创建的时候，管理器功能被以太坊虚拟机和合约共享了同个名字。Rubixi的问题在于当合约中部署了管理器的名称为function DynamicPyramid() ，而不是function Rubixi(),，这就意味着Rubixi最初的名字叫“DynamicPyramid”。由于这个不一致性，合约在创建的时候，并没有指定拥有者，所以城堡的钥匙被抢走了。任何人都能够定义他们自己为合约的拥有者，然后获得参与者加入的合约费用。</p>
 <p><strong>代码示例</strong></p>
 <p>如果我们把合约代码的前几行拿出来，你就会发现合约名称和指定管理器函数的区别。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-bb9a12689975ee11999269c74550eafe_720w.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803224549944.png"></p>
 <p>现在你应该明白了，攻击者需要做的，就是创建合约的名字为function DynamicPyramid(), 然后获得拥有权。然后，攻击者可以调用function collectAllFees()，然后提现。虽然这个攻击已经非常直接了，Rubixi是个很好的例子，告诉我们一定要彻底地检查合约。</p>
-<p><img src="https://pic2.zhimg.com/80/v2-e91543fd81dede4efc1e63b93cbcc549_720w.jpg"></p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803224617415.png"></p>
 <p>很幸运地是，Solidity语言已经更新了，以至于管理器功能被定义为constructor() ，而不是contractName()。我们可以从中学到的是，多次检查我们的合约代码，并且保证你在整个开发过程中，保持一致性。没有什么比部署一个无法改变的合约，但是发现其中有问题，更糟糕了。</p>
 <p>从被DoS到交易系统异常，到项目被冰封直至被遗忘，但是只要我们铭记教训，就能稳固地保持区块链技术的发展。</p>
 <p>旁氏游戏或许已经是过去的事情，但是George Santayana曾经说过，“那些不能从历史中学到教训的人，还会重复错误。”通过从KotET, GovernMental和Rubixi这类错误中学习，我们可以防止自己在错误的道路上越走越远。</p>
