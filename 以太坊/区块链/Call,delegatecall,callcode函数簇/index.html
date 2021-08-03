@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Call,delegatecall,callcode函数簇 | KW&#39;s blog</title>
+  <meta name="keywords" content=" 随笔 ">
+  <meta name="description" content="Call,delegatecall,callcode函数簇 | KW&#39;s blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="页面未找到！">
+<meta property="og:type" content="website">
+<meta property="og:title" content="404">
+<meta property="og:url" content="https://kdlwtrdrgm.github.io/404/index.html">
+<meta property="og:site_name" content="KW&#39;s blog">
+<meta property="og:description" content="页面未找到！">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-07-20T10:58:45.428Z">
+<meta property="article:modified_time" content="2021-07-20T10:58:45.428Z">
+<meta property="article:author" content="KW">
+<meta property="article:tag" content="博客关键词">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/css/hl_theme/darcula.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/js/iconfont.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="KW's blog" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>KW</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://kdlwtrdrgm.github.io"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="email"
+               href="mailto:kdlwtrdrm@gmail.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="neteasemusic"
+               href="https://music.163.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-neteasemusic"></use>
+                    </svg>
+                
+            </a>
+        
+    
+</div>
+
+
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="全部文章">全部文章
+            
+                <small>(30)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+                <li>
+                    <div data-rel="区块链">
+                        
+                        区块链
+                        <small>(2)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Ethernaut">
+                        
+                        Ethernaut
+                        <small>(23)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="以太坊">
+                        
+                        以太坊
+                        <small>(4)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Markdown">
+                        
+                        Markdown
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+    </div>
+    <div>
+        
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="30">
+<input type="hidden" id="yelog_site_word_count" value="32.4k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        友情链接
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="返回"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>靶场</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>区块链</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>随笔</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Markdown</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Typora</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        <a  class="全部文章 以太坊 "
+           href="/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%92%93%E9%B1%BC%E5%BC%8F%E6%94%BB%E5%87%BB/"
+           data-tag="随笔"
+           data-author="" >
+            <span class="post-title" title="钓鱼式攻击">钓鱼式攻击</span>
+            <span class="post-date" title="2021-08-03 11:33:59" style="padding-right: 10px;">2021/08/03</span>
+        </a>
+        
+        <a  class="全部文章 以太坊 "
+           href="/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%A4%B1%E6%8E%A7/"
+           data-tag="随笔"
+           data-author="" >
+            <span class="post-title" title="构造函数失控">构造函数失控</span>
+            <span class="post-date" title="2021-08-03 10:33:59" style="padding-right: 10px;">2021/08/03</span>
+        </a>
+        
+        <a  class="全部文章 以太坊 "
+           href="/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Fallback%E5%87%BD%E6%95%B0/"
+           data-tag="随笔"
+           data-author="" >
+            <span class="post-title" title="Fallback函数">Fallback函数</span>
+            <span class="post-date" title="2021-08-02 16:43:59" style="padding-right: 10px;">2021/08/02</span>
+        </a>
+        
+        <a  class="全部文章 以太坊 "
+           href="/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Call,delegatecall,callcode%E5%87%BD%E6%95%B0%E7%B0%87/"
+           data-tag="随笔"
+           data-author="" >
+            <span class="post-title" title="Call,delegatecall,callcode函数簇">Call,delegatecall,callcode函数簇</span>
+            <span class="post-date" title="2021-08-02 16:43:59" style="padding-right: 10px;">2021/08/02</span>
+        </a>
+        
+        <a  class="全部文章 区块链 "
+           href="/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"
+           data-tag="区块链"
+           data-author="" >
+            <span class="post-title" title="跨链与侧链">跨链与侧链</span>
+            <span class="post-date" title="2021-07-28 00:01:00" style="padding-right: 10px;">2021/07/28</span>
+        </a>
+        
+        <a  class="全部文章 区块链 "
+           href="/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"
+           data-tag="区块链"
+           data-author="" >
+            <span class="post-title" title="闪电贷攻防和智能合约审计">闪电贷攻防和智能合约审计</span>
+            <span class="post-date" title="2021-07-28 00:00:00" style="padding-right: 10px;">2021/07/28</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/0.Ethernaut-Hello%20Ethernaut/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Hello Ethernaut第0关练习">Hello Ethernaut第0关练习</span>
+            <span class="post-date" title="2021-07-27 17:17:00" style="padding-right: 10px;">2021/07/27</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/1.Ethernaut-Fallback/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Fall Out第1关练习">Fall Out第1关练习</span>
+            <span class="post-date" title="2021-07-26 18:55:00" style="padding-right: 10px;">2021/07/26</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/2.Ethernaut-Fall%20out/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Fall Back第2关练习">Fall Back第2关练习</span>
+            <span class="post-date" title="2021-07-26 16:31:00" style="padding-right: 10px;">2021/07/26</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/3.Ethernaut-Coin%20Filp/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Coin Flip第3关练习">Coin Flip第3关练习</span>
+            <span class="post-date" title="2021-07-26 13:40:00" style="padding-right: 10px;">2021/07/26</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/4.Ethernaut-Telephone/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Telephone第4关练习">Telephone第4关练习</span>
+            <span class="post-date" title="2021-07-24 11:33:00" style="padding-right: 10px;">2021/07/24</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/5.Ethernaut-Token/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Token第5关练习">Token第5关练习</span>
+            <span class="post-date" title="2021-07-23 15:27:00" style="padding-right: 10px;">2021/07/23</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/6.Ethernaut-Delegation/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Delegation第6关练习">Delegation第6关练习</span>
+            <span class="post-date" title="2021-07-23 11:19:00" style="padding-right: 10px;">2021/07/23</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/7.Ethernaut-Force/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Force第7关练习">Force第7关练习</span>
+            <span class="post-date" title="2021-07-23 01:49:00" style="padding-right: 10px;">2021/07/23</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/8.Ethernaut-Vault/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Vault第8关练习">Vault第8关练习</span>
+            <span class="post-date" title="2021-07-21 18:22:00" style="padding-right: 10px;">2021/07/21</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/9.Ethernaut-King/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="King第9关练习">King第9关练习</span>
+            <span class="post-date" title="2021-07-21 16:52:00" style="padding-right: 10px;">2021/07/21</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/10.Ethernaut-Re-entrancy/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Re-Entrancy第10关练习">Re-Entrancy第10关练习</span>
+            <span class="post-date" title="2021-07-21 14:45:00" style="padding-right: 10px;">2021/07/21</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/11.Ethernaut-Elevator/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Elevator第11关练习">Elevator第11关练习</span>
+            <span class="post-date" title="2021-07-21 10:27:00" style="padding-right: 10px;">2021/07/21</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/12.Ethernaut-Privacy/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Privacy第12关练习">Privacy第12关练习</span>
+            <span class="post-date" title="2021-07-20 18:13:00" style="padding-right: 10px;">2021/07/20</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/13.Ethernaut-Gatekeeper%20One/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Gatekeeper One第13关练习">Gatekeeper One第13关练习</span>
+            <span class="post-date" title="2021-07-20 15:59:00" style="padding-right: 10px;">2021/07/20</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/14.Ethernaut-Gatekeeper%20Two/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Gatekeeper Two第14关练习">Gatekeeper Two第14关练习</span>
+            <span class="post-date" title="2021-07-20 13:19:00" style="padding-right: 10px;">2021/07/20</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/15.Ethernaut-Naught%20Coin/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Naught Coin第15关练习">Naught Coin第15关练习</span>
+            <span class="post-date" title="2021-07-20 10:51:00" style="padding-right: 10px;">2021/07/20</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/16.Ethernaut-Preservation/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Preservation第16关练习">Preservation第16关练习</span>
+            <span class="post-date" title="2021-07-18 19:28:00" style="padding-right: 10px;">2021/07/18</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/17.Ethernaut-Recovery/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Recovery第17关练习">Recovery第17关练习</span>
+            <span class="post-date" title="2021-07-18 16:42:00" style="padding-right: 10px;">2021/07/18</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/18.Ethernaut-MagicNumber/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="MagicNumber第18关练习">MagicNumber第18关练习</span>
+            <span class="post-date" title="2021-07-18 14:12:00" style="padding-right: 10px;">2021/07/18</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/19.Ethernaut-Alien%20Codex/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Alien Codex第19关练习">Alien Codex第19关练习</span>
+            <span class="post-date" title="2021-07-18 09:15:00" style="padding-right: 10px;">2021/07/18</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/20.Ethernaut-Denial/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Denial第20关练习">Denial第20关练习</span>
+            <span class="post-date" title="2021-07-17 04:56:00" style="padding-right: 10px;">2021/07/17</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/21.Ethernaut-Shop/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Shop第21关练习">Shop第21关练习</span>
+            <span class="post-date" title="2021-07-17 02:24:00" style="padding-right: 10px;">2021/07/17</span>
+        </a>
+        
+        <a  class="全部文章 Ethernaut "
+           href="/Ethernaut/Ethernaut/22.Ethernaut-Dex/"
+           data-tag="靶场"
+           data-author="KW" >
+            <span class="post-title" title="Dex第22关练习（超详细图片版）">Dex第22关练习（超详细图片版）</span>
+            <span class="post-date" title="2021-07-17 00:00:00" style="padding-right: 10px;">2021/07/17</span>
+        </a>
+        
+        <a  class="全部文章 Markdown "
+           href="/Markdown/Markdown/typora%20theme%E4%B8%BB%E9%A2%98%E4%BB%8B%E7%BB%8D/"
+           data-tag="Typora,Markdown"
+           data-author="KW" >
+            <span class="post-title" title="Typora Theme主题介绍">Typora Theme主题介绍</span>
+            <span class="post-date" title="2018-09-07 09:25:00" style="padding-right: 10px;">2018/09/07</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-区块链/Call,delegatecall,callcode函数簇" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">Call,delegatecall,callcode函数簇</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="以太坊">以太坊</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color3">随笔</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2021-08-03 22:20:51'>2021-08-02 16:43</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:7.1k</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Call-delegatecall-callcode%E5%87%BD%E6%95%B0%E7%B0%87"><span class="toc-text">Call,delegatecall,callcode函数簇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Solidity-%E7%9A%84%E4%B8%89%E7%A7%8D%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0"><span class="toc-text">Solidity 的三种调用函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#delegatecall-%E3%80%8C%E6%BB%A5%E7%94%A8%E3%80%8D%E9%97%AE%E9%A2%98"><span class="toc-text">delegatecall 「滥用」问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8E%9F%E7%90%86"><span class="toc-text">原理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A9%E7%94%A8%E6%A8%A1%E5%9E%8B"><span class="toc-text">利用模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%A9%E7%94%A8%E6%A8%A1%E5%9E%8B-1"><span class="toc-text">利用模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#delegatecall-%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98%E6%A1%88%E4%BE%8B"><span class="toc-text">delegatecall 安全问题案例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%94%BB%E5%87%BB%E8%A7%A3%E9%87%8A"><span class="toc-text">攻击解释</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">解决方案</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#call-%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98"><span class="toc-text">call 安全问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#call-%E6%B3%A8%E5%85%A5%E5%8E%9F%E7%90%86"><span class="toc-text">call 注入原理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#call-%E6%B3%A8%E5%85%A5%E6%A8%A1%E5%9E%8B"><span class="toc-text">call 注入模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#call-%E6%B3%A8%E5%85%A5%E6%A1%88%E4%BE%8B"><span class="toc-text">call 注入案例</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%94%BB%E5%87%BB%EF%BC%9A"><span class="toc-text">攻击：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%BC%8F%E6%B4%9E%E8%AF%84%E4%BC%B0%EF%BC%9A"><span class="toc-text">漏洞评估：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E5%AF%B9%E6%8E%AA%E6%96%BD%EF%BC%9A"><span class="toc-text">应对措施：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E5%85%B6%E4%BB%96%E4%BB%A5%E5%A4%AA%E5%9D%8AToken%E5%90%88%E7%BA%A6%E7%9A%84%E9%A2%84%E8%AD%A6"><span class="toc-text">对其他以太坊Token合约的预警:</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#callcode-%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98"><span class="toc-text">callcode 安全问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-6 i,
+    .toc-level-6 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Call-delegatecall-callcode函数簇"><a href="#Call-delegatecall-callcode函数簇" class="headerlink" title="Call,delegatecall,callcode函数簇"></a>Call,delegatecall,callcode函数簇</h2><p><a target="_blank" rel="noopener" href="https://solidity-cn.readthedocs.io/zh/develop/types.html#members-of-addresses">官方解释</a></p>
+<p><a target="_blank" rel="noopener" href="http://solidity.readthedocs.io/en/v0.4.24/">Solidity</a> 是一种用与编写以太坊智能合约的高级语言，语法类似于 JavaScript。Solidity 编写的智能合约可被编译成为字节码在以太坊虚拟机上运行。Solidity 中的合约与面向对象编程语言中的类（Class）非常类似，在一个合约中同样可以声明：状态变量、函数、事件等。同时，一个合约可以调用/继承另外一个合约。</p>
+<p>在 Solidity 中提供了 <code>call</code>、<code>delegatecall</code>、<code>callcode</code> 三个函数来实现合约之间相互调用及交互。正是因为这些灵活各种调用，也导致了这些函数被合约开发者“滥用”，甚至“肆无忌惮”提供任意调用“功能”，导致了各种安全漏洞及风险：</p>
+<p>2017.7.20，Parity Multisig电子钱包版本 1.5+ 的漏洞被发现，使得攻击者从三个高安全的多重签名合约中<a target="_blank" rel="noopener" href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7">窃取到超过 15 万 ETH</a> ，其事件原因是由于未做限制的 <code>delegatecall</code> 函数调用了合约初始化函数导致合约拥有者被修改。</p>
+<p>2018.6.16，「隐形人真忙」在先知大会上演讲了<a target="_blank" rel="noopener" href="https://paper.seebug.org/625/">「智能合约消息调用攻防」</a>的议题，其中提到了一种新的攻击场景—— <code>call</code> 注⼊，主要介绍了利用对 <code>call</code> 调用处理不当，配合一定的应用场景的一种攻击手段。接着于 2018.6.20，<code>ATN</code> 代币团队发布<a target="_blank" rel="noopener" href="https://paper.seebug.org/621/">「ATN抵御黑客攻击的报告」</a>，报告指出黑客利用 <code>call</code> 注入攻击漏洞修改合约拥有者，然后给自己发行代币，从而造成 <code>ATN</code> 代币增发。</p>
+<p>由此本文主要是针对 Solidity 合约调用函数<code>call</code>、<code>delegatecall</code>、<code>callcode</code> 三种调用方式的异同、滥用导致的漏洞模型并结合实际案例进行分析介绍。</p>
+<h3 id="Solidity-的三种调用函数"><a href="#Solidity-的三种调用函数" class="headerlink" title="Solidity 的三种调用函数"></a>Solidity 的三种调用函数</h3><p>在 Solidity 中，<code>call</code> 函数簇可以实现跨合约的函数调用功能，其中包括 <code>call</code>、<code>delegatecall</code> 和 <code>callcode</code> 三种方式。</p>
+<p>以下是 Solidity 中 <code>call</code> 函数簇的调用模型：</p>
+<pre><code>&lt;address&gt;.call(...) returns (bool)
+&lt;address&gt;.callcode(...) returns (bool)
+&lt;address&gt;.delegatecall(...) returns (bool)
+</code></pre>
+<p>这些函数提供了灵活的方式与合约进行交互，并且可以接受任何长度、任何类型的参数，其传入的参数会被填充至 32 字节最后拼接为一个字符串序列，由 EVM 解析执行。</p>
+<p>在函数调用的过程中， Solidity 中的内置变量 <code>msg</code> 会随着调用的发起而改变，<code>msg</code> 保存了调用方的信息包括：调用发起的地址，交易金额，被调用函数字符序列等。</p>
+<p><strong>三种调用方式的异同点</strong></p>
+<ul>
+<li>call: 最常用的调用方式，调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，执行环境为<strong>被调用者</strong>的运行环境(合约的 storage)。</li>
+<li>delegatecall: 调用后内置变量 <code>msg</code> 的值<strong>不会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</li>
+<li>callcode: 调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</li>
+</ul>
+<h3 id="delegatecall-「滥用」问题"><a href="#delegatecall-「滥用」问题" class="headerlink" title="delegatecall 「滥用」问题"></a>delegatecall 「滥用」问题</h3><blockquote>
+<p>delegatecall: 调用后内置变量 <code>msg</code> 的值<strong>不会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</p>
+</blockquote>
+<h4 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h4><p>在智能合约的开发过程中，合约的相互调用是经常发生的。开发者为了实现某些功能会调用另一个合约的函数。比如下面的例子，调用一个合约 A 的 <code>test()</code> 函数，这是一个正常安全的调用。</p>
+<pre><code>function test(uint256 a) public {
+    // codes
+}
+function callFunc() public {
+&lt;A.address&gt;.delegatecall(bytes4(keccak256("test(uint256)")), 10);
+}
+</code></pre>
+<p>但是在实际开发过程中，开发者为了兼顾代码的灵活性，往往会有下面这种写法：</p>
+<pre><code>function callFunc(address addr, bytes data) public {
+    addr.delegatecall(data);
+}
+</code></pre>
+<p>这将引起任意 public 函数调用的问题：合约中的 <code>delegatecall</code> 的调用地址和调用的字符序列都由用户传入，那么完全可以调用任意地址的函数。</p>
+<p>除此之外，由于 <code>delegatecall</code> 的执行环境为调用者环境，当调用者和被调用者有相同变量时，如果被调用的函数对变量值进行修改，那么修改的是调用者中的变量。</p>
+<h4 id="利用模型"><a href="#利用模型" class="headerlink" title="利用模型"></a>利用模型</h4><p>下面的例子中 B 合约是业务逻辑合约，其中存在一个任意地址的 <code>delegatecall</code> 调用。</p>
+<pre><code>contract B {
+    address owner;
+
+    function callFunc(address addr, bytes data) public {
+        addr.delegatecall(data);
+        //address(Attack).delegatecall(bytes4(keccak256("foo()")));  //利用代码示意
+    }
+}
+</code></pre>
+<p>攻击者对应这种合约可以编写一个 Attack 合约，然后精心构造字节序列(将注释部分的攻击代码转换为字节序列)，通过调用合约 B 的 <code>delegatecall</code>，最终调用 Attack 合约中的函数，下面是 Attack 合约的例子：</p>
+<pre><code>contract Attack {
+    address owner;
+    function foo() public {
+        // any codes
+    }
+}
+</code></pre>
+<p>对于 <code>delegatecall</code> 「滥用」的问题，实际的漏洞效果取决于 Attack 合约中的攻击代码，可能造成的安全问题包括：</p>
+<ol>
+<li>攻击者编写一个转账的函数，窃取合约 B 的货币</li>
+<li>攻击者编写设置合约拥有者的函数，修改合约 B 的拥有者</li>
+</ol>
+<p>在智能合约的开发过程中，合约的相互调用是经常发生的。开发者为了实现某些功能会调用另一个合约的函数。比如下面的例子，调用一个合约 A 的 <code>test()</code> 函数，这是一个正常安全的调用。</p>
+<pre><code>function test(uint256 a) public {
+    // codes
+}
+
+function callFunc() public {
+    &lt;A.address&gt;.delegatecall(bytes4(keccak256("test(uint256)")), 10);
+}
+</code></pre>
+<p>但是在实际开发过程中，开发者为了兼顾代码的灵活性，往往会有下面这种写法：</p>
+<pre><code>function callFunc(address addr, bytes data) public {
+    addr.delegatecall(data);
+}
+</code></pre>
+<p>这将引起任意 public 函数调用的问题：合约中的 <code>delegatecall</code> 的调用地址和调用的字符序列都由用户传入，那么完全可以调用任意地址的函数。</p>
+<p>除此之外，由于 <code>delegatecall</code> 的执行环境为调用者环境，当调用者和被调用者有相同变量时，如果被调用的函数对变量值进行修改，那么修改的是调用者中的变量。</p>
+<h4 id="利用模型-1"><a href="#利用模型-1" class="headerlink" title="利用模型"></a>利用模型</h4><p>下面的例子中 B 合约是业务逻辑合约，其中存在一个任意地址的 <code>delegatecall</code> 调用。</p>
+<pre><code>contract B {
+    address owner;
+
+    function callFunc(address addr, bytes data) public {
+        addr.delegatecall(data);
+        //address(Attack).delegatecall(bytes4(keccak256("foo()")));  //利用代码示意
+    }
+}
+</code></pre>
+<p>攻击者对应这种合约可以编写一个 Attack 合约，然后精心构造字节序列(将注释部分的攻击代码转换为字节序列)，通过调用合约 B 的 <code>delegatecall</code>，最终调用 Attack 合约中的函数，下面是 Attack 合约的例子：</p>
+<pre><code>contract Attack {
+    address owner;
+
+    function foo() public {
+        // any codes
+    }
+}
+</code></pre>
+<p>对于 <code>delegatecall</code> 「滥用」的问题，实际的漏洞效果取决于 Attack 合约中的攻击代码，可能造成的安全问题包括：</p>
+<ol>
+<li>攻击者编写一个转账的函数，窃取合约 B 的货币</li>
+<li>攻击者编写设置合约拥有者的函数，修改合约 B 的拥有者</li>
+</ol>
+<h4 id="delegatecall-安全问题案例"><a href="#delegatecall-安全问题案例" class="headerlink" title="delegatecall 安全问题案例"></a>delegatecall 安全问题案例</h4><p><a target="_blank" rel="noopener" href="https://blog.openzeppelin.com/on-the-parity-wallet-multisig-hack-405a8c12e8f7/"><strong>Parity MultiSig钱包事件</strong></a></p>
+<p>2017.7.20，Parity Multisig电子钱包版本 1.5+ 的漏洞被发现，使得攻击者从三个高安全的多重签名合约中窃取到超过 15 万 ETH ，按照当时的 ETH 价格来算，大约为 3000 万美元。</p>
+<p>今天，我们目睹了以太坊网络历史上第二大黑客攻击，就 ETH 被盗而言。截至 UTC 时间下午 12:19，（[攻击者的账户]<a target="_blank" rel="noopener" href="https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32#internaltx%EF%BC%89%E5%B7%B2%E7%BB%8F%E4%BB%8E%E8%BF%87%E5%8E%BB%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%89%E4%B8%AA%E5%A4%87%E5%8F%97%E7%9E%A9%E7%9B%AE%E7%9A%84%E4%BB%A3%E5%B8%81%E9%94%80%E5%94%AE%E5%90%88%E5%90%8C%E4%B8%AD%E6%8F%90%E5%8F%96%E4%BA%86">https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32#internaltx）已经从过去使用的三个备受瞩目的代币销售合同中提取了</a> 153,037 个 ETH，用于存储多重签名。该问题最初是<a target="_blank" rel="noopener" href="https://blog.parity.io/security-alert-high-2/">由 Parity 团队报告的</a>，因为<a target="_blank" rel="noopener" href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol">受影响的 MultiSig 钱包合约是 Parity 软件套件的一部分</a>。</p>
+<p>其事件原因是由于未做限制的 <code>delegatecall</code> 可以调用 <code>WalletLibrary</code> 合约的任意函数，并且其钱包初始化函数未做校验，导致初始化函数可以重复调用。攻击者利用这两个条件，通过 <code>delegatecall</code> 调用 <code>initWallet()</code> 函数，最终修改了合约拥有者，并将合约中的以太币转到自己的账户下。</p>
+<h4 id="攻击解释"><a href="#攻击解释" class="headerlink" title="攻击解释"></a>攻击解释</h4><p>下面是存在安全问题的代码片段：<a target="_blank" rel="noopener" href="https://github.com/paritytech/parity/blob/4d08e7b0aec46443bf26547b17d10cb302672835/js/src/contracts/snippets/enhanced-wallet.sol">Github/parity:</a> </p>
+<p>a. delegatecall 调用代码：<br>(<code>contract Wallet is WalletEvents</code>)</p>
+<pre><code>//在没有其他函数匹配时调用
+  function() payable {
+    // just being sent some cash?
+    if (msg.value &gt; 0)
+      Deposit(msg.sender, msg.value);
+    else if (msg.data.length &gt; 0)
+      _walletLibrary.delegatecall(msg.data);
+  }
+</code></pre>
+<p>b. initWallet() 与 initMultiowned() 代码片段：<br>(<code>contract WalletLibrary is WalletEvents</code>)</p>
+<pre><code>function initWallet(address[] _owners, uint _required, uint _daylimit) {
+    initDaylimit(_daylimit);
+    initMultiowned(_owners, _required);
+}
+
+...
+
+function initMultiowned(address[] _owners, uint _required) {
+    m_numOwners = _owners.length + 1;
+    m_owners[1] = uint(msg.sender);
+    m_ownerIndex[uint(msg.sender)] = 1;
+    for (uint i = 0; i &lt; _owners.length; ++i) {
+      m_owners[2 + i] = uint(_owners[i]);
+      m_ownerIndex[uint(_owners[i])] = 2 + i;
+    }
+    m_required = _required;
+}
+</code></pre>
+<p>其中钱包初始化函数 <code>initMultiowned()</code> 未做校验，可以被多次调用，存在安全隐患，但由于其位于 <code>WalletLibrary</code> 合约下，是不能直接调用的。黑客利用 <code>Wallet</code> 合约中的 <code>delegatecall</code> 调用 <code>WalletLibrary</code> 合约的 <code>initWallet()</code> 函数，初始化整个钱包，将合约拥有者修改为仅黑客一人，随后进行转账操作。</p>
+<p>黑客攻击链：</p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803205321834.png"></p>
+<p>除了上述 <code>delegatecall</code> 滥用的案例，在分析研究的过程中，发现有部分蜜罐合约利用 <code>delegatecall</code> 的特性(拷贝目标到自己的运行空间中执行)，在代码中暗藏后门，暗中修改转账地址，导致用户丢失货币。有关 <code>delegatecall</code> 蜜罐的详情请参考<a target="_blank" rel="noopener" href="https://paper.seebug.org/631/">「以太坊蜜罐智能合约分析」</a>，其中的 「4.2 偷梁换柱的地址(访问控制)：firstTest」小节。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>可以通过不将构造函数逻辑完全提取到库合约中来阻止攻击，或者通过<em>不用<code>delegatecall</code>作全能转发机制来</em>更好地阻止攻击<em>。</em>推荐的模式是明确定义哪些库函数可以在钱包合约上从外部调用。</p>
+<p>需要注意的是，将逻辑抽象到共享库中的技术可能非常有用。它有助于提高代码的可重用性并降低 gas 部署成本。然而，这次攻击清楚地表明<strong>，以太坊生态系统需要一套最佳实践和标准，以确保这些编码模式得到有效和安全的实施</strong>。否则，看起来最无辜的错误可能会带来灾难性的后果。</p>
+<h3 id="call-安全问题"><a href="#call-安全问题" class="headerlink" title="call 安全问题"></a><strong>call 安全问题</strong></h3><blockquote>
+<p>call: 最常用的调用方式，调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，执行环境为<strong>被调用者</strong>的运行环境。</p>
+</blockquote>
+<p><code>call</code> 注入是一种新的攻击场景，由「隐形人真忙」在先知大会上演讲<a target="_blank" rel="noopener" href="https://xzfile.aliyuncs.com/upload/zcon/2018/9_%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E6%B6%88%E6%81%AF%E8%B0%83%E7%94%A8%E6%94%BB%E9%98%B2_%E9%9A%90%E5%BD%A2%E4%BA%BA%E5%BE%88%E5%BF%99.pdf">「智能合约消息调用攻防」</a>议题上提出，原因是对 <code>call</code> 调用处理不当，配合一定的应用场景的一种攻击手段。</p>
+<h4 id="call-注入原理"><a href="#call-注入原理" class="headerlink" title="call 注入原理"></a>call 注入原理</h4><p><strong>call 调用修改 msg.sender 值</strong><br>通常情况下合约通过 <code>call</code> 来执行来相互调用执行，由于 <code>call</code> 在相互调用过程中内置变量 <code>msg</code> 会随着调用方的改变而改变，这就成为了一个安全隐患，在特定的应用场景下将引发安全问题。</p>
+<p>外部用户通过 call 函数再调用合约函数：</p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803211223597.png"></p>
+<p><strong>高度自由的 call 调用</strong></p>
+<p>在某些应用场景下，调用函数可以由用户指定；下面是 <code>call</code> 函数的调用方式：</p>
+<pre><code>&lt;address&gt;.call(function_selector, arg1, arg2, ...)
+&lt;address&gt;.call(bytes)
+</code></pre>
+<p>从上面可以看出，<code>call</code> 函数拥有极大的自由度：</p>
+<ol>
+<li>对于一个指定合约地址的 <code>call</code> 调用，可以调用该合约下的任意函数</li>
+<li>如果 <code>call</code> 调用的合约地址由用户指定，那么可以调用任意合约的任意函数</li>
+</ol>
+<p>为了便于理解，可以将智能合约中的 <code>call</code> 函数类比为其他语言中的 <code>eval</code> 函数，<code>call</code> 函数相当于给用户提供了随意调用合约函数的入口，如果合约中有函数以 <code>msg.sender</code> 作为关键变量，那么就会引发安全问题。</p>
+<p><strong>call 函数簇调用自动忽略多余参数</strong><br><code>call</code> 函数簇在调用函数的过程中，会自动忽略多余的参数，这又额外增加了 <code>call</code> 函数簇调用的自由度。下面的例子演示 <code>call</code> 自动忽略多余参数：</p>
+<pre><code>pragma solidity ^0.4.0;
+
+contract A {
+    uint256 public aa = 0;
+
+    function test(uint256 a) public {
+        aa = a;
+    }
+    function callFunc() public {
+        this.call(bytes4(keccak256("test(uint256)")), 10, 11, 12);
+    }
+}
+</code></pre>
+<p>例子中 <code>test()</code> 函数仅接收一个 <code>uint256</code> 的参数，但在 <code>callFunc()</code> 中传入了三个参数，由于 <code>call</code> 自动忽略多余参数，所以成功调用了 <code>test()</code> 函数。</p>
+<h4 id="call-注入模型"><a href="#call-注入模型" class="headerlink" title="call 注入模型"></a>call 注入模型</h4><p><code>call</code> 注入引起的最根本的原因就是 <code>call</code> 在调用过程中，会将 <code>msg.sender</code> 的值转换为发起调用方的地址，下面的例子描述了 <code>call</code> 注入的攻击模型。</p>
+<pre><code>contract B {
+    function info(bytes data){
+        this.call(data);
+        //this.call(bytes4(keccak256("secret()"))); //利用代码示意
+    }
+    function secret() public{
+        require(this == msg.sender);
+        // secret operations
+    }
+}
+</code></pre>
+<p>在合约 B 中存在 <code>info()</code> 和 <code>secret()</code> 函数，其中 <code>secret()</code> 函数只能由合约自己调用，在 <code>info()</code> 中有用户可以控制的 <code>call</code> 调用，用户精心构造传入的数据(将注释转为字节序列)，即可绕过 <code>require()</code> 的限制，成功执行下面的代码。</p>
+<p>对于 <code>call</code> 注入的问题，实际造成的漏洞影响取决于被调用的函数，那么可能的安全问题包括：</p>
+<p><strong>1.权限绕过</strong><br>如同上面的例子，合约将合约本身的地址作为权限认证的条件之一，但由于 <code>call</code> 的调用会导致 <code>msg.sender</code> 变量值更新为调用方的值，所以就会引起权限绕过的问题。</p>
+<pre><code>function callFunc(bytes data) public {
+    this.call(data);
+    //this.call(bytes4(keccak256("withdraw(address)")), target); //利用代码示意
+}
+
+function withdraw(address addr) public {
+    require(isAuth(msg.sender));
+    addr.transfer(this.balance);
+}
+
+function isAuth(address src) internal view returns (bool) {
+    if (src == address(this)) {
+        return true;
+    }
+    else if (src == owner) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+</code></pre>
+<p>上述例子表示了权限绕过导致的任意用户提取货币。withdraw()<code>函数设计的初衷为只能有合约拥有者和合约本身可以发起取款的操作；但由于</code>call<code>的问题，只要用户精心拼接字符序列调用</code>call<code>，从而调用 </code>withdraw()<code>函数，就可以绕过</code>isAuth()` 并取款。</p>
+<p><strong>2.窃取代币</strong><br>在代币合约中，往往会加入一个 <code>call</code> 回调函数，用于通知接收方以完成后续的操作。但由于 <code>call</code> 调用的特性，用户可以向 <code>call</code> 传入 <code>transfer()</code> 函数调用，即可窃取合约地址下代币。下面的例子表示了用户传入 <code>transfer()</code> 函数导致窃取代币。</p>
+<pre><code>function transfer(address _to, uint256 _value) public {
+    require(_value &lt;= balances[msg.sender]);
+    balances[msg.sender] -= _value;
+    balances[_to] += _value;
+}
+function callFunc(bytes data) public {
+    this.call(data);
+    //this.call(bytes4(keccak256("transfer(address,uint256)")), target, value); //利用代码示意
+}
+</code></pre>
+<p>该例子是代币合约的代码片段，用户传入精心构造的字符序列以通过 <code>call</code> 来调用 <code>transfer()</code> 函数，并传入 <code>transfer()</code> 的参数 <code>_to</code> 为自己的地址；通过 <code>call</code> 调用后， <code>transfer()</code> 函数执行时的 <code>msg.sender</code> 的值已经是合约地址了，<code>_to</code> 地址是用户自己的地址，那么用户就成功窃取了合约地址下的代币。</p>
+<h4 id="call-注入案例"><a href="#call-注入案例" class="headerlink" title="call 注入案例"></a>call 注入案例</h4><p><strong>1.ATN代币增发</strong></p>
+<p>2018.5.11，ATN 技术人员收到异常监控报告，显示 <code>ATN Token</code> 供应量出现异常，通过分析发现 <code>Token</code> 合约由于存在漏洞受到攻击。该事件对应了上文中的第一种利用模型，由于 ATN 代币的合约中的疏漏，该事件中 <code>call</code> 注入不但绕过了权限认证，同时还可以更新合约拥有者。2018年5月11日中午，ATN技术人员收到异常监控报告，显示ATN Token供应量出现异常，迅速介入后发现Token合约由于存在漏洞受到攻击。本报告描述黑客的攻击操作、利用的合约漏洞以及ATN的应对追踪方法。</p>
+<h4 id="攻击："><a href="#攻击：" class="headerlink" title="攻击："></a>攻击：</h4><ol>
+<li>黑客利用ERC223方法漏洞，获得提权，将自己的地址设为owner<br><a target="_blank" rel="noopener" href="https://etherscan.io/tx/0x3b7bd618c49e693c92b2d6bfb3a5adeae498d9d170c15fcc79dd374166d28b7b">https://etherscan.io/tx/0x3b7bd618c49e693c92b2d6bfb3a5adeae498d9d170c15fcc79dd374166d28b7b</a></li>
+<li>黑客在获得owner权限后，发行1100w ATN到自己的攻击主地址<br><a target="_blank" rel="noopener" href="https://etherscan.io/tx/0x9b559ffae76d4b75d2f21bd643d44d1b96ee013c79918511e3127664f8f7a910">https://etherscan.io/tx/0x9b559ffae76d4b75d2f21bd643d44d1b96ee013c79918511e3127664f8f7a910</a></li>
+<li>黑客将owner设置恢复，企图隐藏踪迹<br><a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xfd5c2180f002539cd636132f1baae0e318d8f1162fb62fb5e3493788a034545a">https://etherscan.io/tx/0xfd5c2180f002539cd636132f1baae0e318d8f1162fb62fb5e3493788a034545a</a></li>
+<li>黑客从主地址将偷来的黑币分散到14个地址中</li>
+</ol>
+<pre><code>0x54868268e975f3989d77e0a67c943a5e65ed4a73 3411558.258
+0x62892fd48fd4b2bbf86b75fc4def0a37b224fcc1 946828.3
+0x57be7b4d3e1c6684dac6de664b7809185c8fc356 929,995.9
+0x3b361e253c41897d78902ce5f7e1677fd01083da 838,991
+0x7279e64d3ae20745b150e330fc080050deebeb4d 784,409.41
+0xb729eac33217c0b28251261194d79edd89d18292 762,518.6
+0xe67dc4b47e0ac9b649e52cdb883370d348871d64 682,026.9
+0x44660bae953555ccfdcc5a38c78a5a568b672daa 564,288
+0xf7e915e7ec24818f15c11ec74f7b8d4a604d7538 551,018.8
+0xa4b45e8cca78e862d3729f10f4998da4200f10ef 438,277.6
+0xc98e179f2909b1d0bce5b5d22c92bf803fc0d559 350,597.35
+0xd5f898c7914e05ec7eaa3bf67aafd544a5bb5f24 325,291.1
+0x3dd815af5d728903367a3036bc6dbe291de6f0ee 282,069.29
+0x6d8750f28fffb8e9920490edb4ed1817a4736998 110,261.2948
+</code></pre>
+<p>利用的合约漏洞：</p>
+<p>ATN Token合约采用的是在传统ERC20Token合约基础上的扩展版本<a target="_blank" rel="noopener" href="https://github.com/ethereum/EIPs/issues/223">ERC223</a>，并在其中使用了 <a target="_blank" rel="noopener" href="https://github.com/dapphub/ds-auth">dapphub/ds-auth</a> 库。采用这样的设计是为了实现以下几个能力：</p>
+<ol>
+<li>天然支持Token互换协议，即ERC20Token与ERC20Token之间的直接互换。本质上是发送ATN时，通过回调函数执行额外指令，比如发回其他Token。</li>
+<li>可扩展的、结构化的权限控制能力。</li>
+<li>Token合约可升级，在出现意外状况时可进行治理。</li>
+</ol>
+<p>单独使用 ERC223 或者 ds-auth 库时，并没有什么问题，但是两者结合时，黑客利用了回调函数回调了setOwner方法，从而获得高级权限。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/ATNIO/atn-contracts/blob/7203781ad8d106ec6d1f9ca8305e76dd1274b181/src/ATN.sol#L100">ERC223转账</a>代码如下：</p>
+<pre><code>function transferFrom(address _from, address _to, uint256 _amount,
+bytes _data, string _custom_fallback) public returns (bool success)
+{
+...
+ERC223ReceivingContract receiver =
+ERC223ReceivingContract(_to);
+receiving.call.value(0)(byte4(keccak256(_custom_fallback)),
+_from, amout, data);
+...
+}
+</code></pre>
+<p>当黑客<a target="_blank" rel="noopener" href="https://etherscan.io/tx/0x3b7bd618c49e693c92b2d6bfb3a5adeae498d9d170c15fcc79dd374166d28b7b">转账</a>时在方法中输入以下参数：</p>
+<pre><code>transferFrom( hacker_address, atn_contract_address, 0, 0,
+"setOwner(address)")
+
+_from: 0x2eca25e9e19b31633db106341a1ba78accba7d0f -- 黑客地址
+_to: 0x461733c17b0755ca5649b6db08b3e213fcf22546 -- ATN合约地址
+_amount: 0
+_data: 0x0
+_custom_fallback: setOwner(address)
+</code></pre>
+<p>该交易执行的时候 receiver 会被 <code>_to(ATN合约地址)</code> 赋值， ATN 合约会调用 <code>_custom_fallback</code> 即 DSAuth 中的 setOwner(adddress) 方法，而此时的 msg.sender 变为 ATN 合约地址，<code>owner_</code>参数为<code>_from(黑客地址)</code></p>
+<p>ds-auth库中setOwner <a target="_blank" rel="noopener" href="https://github.com/dapphub/ds-auth/blob/c0050bbb6807027c623b1a1ee7afd86515cdb004/src/auth.sol#L36">代码</a>如下：</p>
+<pre><code>functuin setOwner(address owner_) public auth
+{
+own = owner_;
+LogSetOwner(owner);
+}
+</code></pre>
+<p>此时 setOwner 会先验证 auth 合法性的，而 msg.sender 就是ATN的合约地址。setOwner 的 modifier <a target="_blank" rel="noopener" href="https://github.com/dapphub/ds-auth/blob/c0050bbb6807027c623b1a1ee7afd86515cdb004/src/auth.sol#L52">auth</a> 代码如下：</p>
+<pre><code>modifier auth {
+require(isAuthorized(msg.sender, msg.sig));
+_;
+}
+function isAuthorized(address src, bytes4 sig) internal view returns
+(bool) {
+if (src == address(this)) { //此处的src与ATN合约地址一致返回true
+return true;
+} else { … }
+</code></pre>
+<p>通过利用这个ERC223方法与DS-AUTH库的混合漏洞，黑客将 ATN Token合约的 owner 变更为自己控制的地址。获取 owner 权限后，黑客发起<a target="_blank" rel="noopener" href="https://etherscan.io/tx/0x9b559ffae76d4b75d2f21bd643d44d1b96ee013c79918511e3127664f8f7a910">另外一笔交易</a>对 ATN 合约进行攻击，调用 mint 方法给另外一个地址发行 1100wATN。</p>
+<p>最后，黑客调用 setOwner 方法将<a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xfd5c2180f002539cd636132f1baae0e318d8f1162fb62fb5e3493788a034545a">权限复原</a>。</p>
+<p>在 ATN 项目中使用到了 <code>ERC223</code> 和 <code>ds-auth</code> 库，两个库在单独使用的情况下没有问题，同时使用时就会出现安全问题，以下是存在安全问题的代码片段： <a target="_blank" rel="noopener" href="https://github.com/ATNIO/atn-contracts">Github/ATN</a>: </p>
+<p>a. <code>ERC223</code> 标准中的自定义回调函数：<a target="_blank" rel="noopener" href="https://github.com/Dexaran/ERC223-token-standard">Github/ERC223:</a> </p>
+<pre><code>function transferFrom(address _from, address _to, uint256 _amount, bytes _data, string _custom_fallback) public returns (bool success) {
+    ...
+    if (isContract(_to)) {
+        ERC223ReceivingContract receiver = ERC223ReceivingContract(_to);
+        receiver.call.value(0)(bytes4(keccak256(_custom_fallback)), _from, _amount, _data);
+    }
+    ...
+}
+</code></pre>
+<p>b. <code>ds-auth</code> 权限认证和更新合约拥有者函数：<a target="_blank" rel="noopener" href="https://github.com/dapphub/ds-auth">Github/ds-auth:</a> </p>
+<pre><code>...
+function setOwner(address owner_) public auth {
+    owner = owner_;
+    emit LogSetOwner(owner);
+}
+...
+modifier auth {
+    require(isAuthorized(msg.sender, msg.sig));
+    _;
+}
+function isAuthorized(address src, bytes4 sig) internal view returns (bool) {
+    if (src == address(this)) {
+        return true;
+    } else if (src == owner) {
+        return true;
+    } else if (authority == DSAuthority(0)) {
+        return false;
+    } else {
+        return authority.canCall(src, this, sig);
+    }
+}
+</code></pre>
+<p>黑客通过调用 <code>transferFrom()</code> 函数，并传入黑客自己的地址作为 <code>_from</code> 参数， ATN 合约的地址作为 <code>_to</code> 参数，并传入 <code>setOwner()</code> 作为回调函数；在执行过程中，由于 <code>call</code> 调用自动忽略多余的参数，黑客的地址将作为 <code>setOwner()</code> 的参数成功执行到函数内部，与此同时，<code>call</code> 调用已经将 <code>msg.sender</code> 转换为了合约本身的地址，也就绕过了 <code>isAuthorized()</code> 的权限认证，黑客成功将合约的拥有者改为了自己；随后调用 <code>Mint()</code> 函数为自己发行代币，最后黑客再次调用 <code>setOwner()</code> 将权限还原，企图销毁作案现场。</p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803221127532.png"></p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803221157827.png"></p>
+<h4 id="漏洞评估："><a href="#漏洞评估：" class="headerlink" title="漏洞评估："></a>漏洞评估：</h4><p>漏洞等级：严重</p>
+<p>产品影响：atn-contracts</p>
+<p>可能损失：导致Token总供应量发生变化</p>
+<p>发现了基于ERC223标准与dapphub/ds-auth库相结合的合约漏洞，更准确的说是在ERC223回调函数发起时，调用本身合约时可能造成内部权限控制失效。</p>
+<h4 id="应对措施："><a href="#应对措施：" class="headerlink" title="应对措施："></a>应对措施：</h4><p>经过上面的追踪，发现黑客将黑币分散在14个不同的新地址中，而这些地址中并没有ETH，暂时不存在立即的转账到交易所销赃的风险。我方有能力立即冻结黑客的黑币，恢复供应量的变化，所以，重点在如何追踪到黑客，应对思路如下：</p>
+<ol>
+<li>准备修复措施，增加Guard合约禁止回调函数向ATN合约本身回调；增加黑名单合约，随时冻结黑客地址</li>
+<li>等待黑客向交易所发送充值交易，以便获得进一步证据</li>
+<li>获得证据后，立即启动修复流程，将黑客相关地址加入黑名单，禁止其转移ATN Token</li>
+<li>基金会销毁等量ATN Token以恢复供给总量，并在ATN主链上线时予以修正。</li>
+</ol>
+<p>产品修复：新增Guard合约，禁止对ATN合约发送转账交易，进而防止回调函数对ATN合约进行方法调用。</p>
+<p>由于 ATN 合约的灵活性和治理扩展性，创建并添加了两个 Guard 合约。</p>
+<ol>
+<li>创建添加 <a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xb486decc811ef9744af223222004adbe3869706eb3f0f8e8736ae306a4ec7d88">FrozenGuard</a> 合约，禁止对 ATN 合约发送转账交易。</li>
+<li>创建添加 <a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xf1cbbbd0ecd0098ce49b25644885870fe704465373ffb20f6a3117ad44531eae">StopTransferGuard</a> 合约，冻结黑客账户地址，禁止其 ATN进行转账。</li>
+<li>基金会<a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xd8bfe8948259a0de2d28d14c6e45bda41ea09dc557ef38765964d6816c6bea8a">销毁</a> 1100w ATN，恢复 ATN 总量。</li>
+</ol>
+<p>ATN Gurad 会在发生转账交易时，对交易的合法性进行处理。</p>
+<p>ATN 转账代码如下：</p>
+<pre><code>function transferFrom(address _from, address _to, uint256 _amount,
+bytes _data, string _custom_fallback) public returns (bool success) {
+if (isContract(controller)) {
+if (!TokenController(controller).onTransfer(_from, _to,
+_amount))
+throw;
+ }
+ ...
+}
+</code></pre>
+<p>ATN 的 TokenController 接管了 onTranser(_from, _to, amount) 处理方法，实现对交易的合法性验证。具体方法在 SwapController 中<a target="_blank" rel="noopener" href="https://github.com/ATNIO/atn-contracts/blob/7203781ad8d106ec6d1f9ca8305e76dd1274b181/src/SwapController.sol#L29">实现</a>：</p>
+<pre><code>function onTransfer(address _from,address _to, uint _amount) public
+returns (bool) {
+for (uint i =0; i&lt;guards.length; i++) {
+ if (!gruards[i].onTokenTransfer(_from, _to, amount)) {
+ return false;
+ }
+ }
+}
+</code></pre>
+<p>SwapController 中维护了 TokenTransferGuard 的合约列表，可以添加多个 Guard 合约对交易的合法性进行验证。</p>
+<p><a target="_blank" rel="noopener" href="https://gist.github.com/HackFisher/ad2567bda8a082dd2e70ea86b427ee4d">FrozenGuard.sol</a> 代码如下：</p>
+<pre><code>function onTokenTransfer(address _from, addres _to, uint _amount)
+public returns (bool) {
+ if (_to == tokenAddress) {
+ return false;
+ }
+ return true;
+}
+</code></pre>
+<p>tokenAddress为 ATN 合约地址，禁止对 ATN 地址发送转账交易。</p>
+<p>StopTransferGurad.sol 代码如下：</p>
+<pre><code>function onTokenTransfer(address _from, addres _to, uint _amount)
+public returns (bool) {
+ if (!stopped &amp;&amp; isBlack[_from]) {
+ return false;
+ }
+ return true;
+}
+</code></pre>
+<p>isBlack 存储所有黑客非法发行 ATN 的账户地址，支持动态更新。所有转账到这些的 ATN 也将无法转账。</p>
+<p>stopped 该Guard的开关。</p>
+<p>安全审计结果：</p>
+<p>模拟冻结黑名单地址转账结果：<br><a target="_blank" rel="noopener" href="https://kovan.etherscan.io/tx/0x68755305fee0d995f4ee79f6ab9d14e1aaf5d4b1c2d5838acbbaff464b6579d5">https://kovan.etherscan.io/tx/0x68755305fee0d995f4ee79f6ab9d14e1aaf5d4b1c2d5838acbbaff464b6579d5</a></p>
+<p>模拟向ATN合约转账结果：<br><a target="_blank" rel="noopener" href="https://kovan.etherscan.io/tx/0x78738ab30a507ac209fb4aaf80be7e92c558bff8767887d3e1f4e0a445f16444">https://kovan.etherscan.io/tx/0x78738ab30a507ac209fb4aaf80be7e92c558bff8767887d3e1f4e0a445f16444</a></p>
+<p>模拟黑客攻击结果：<br><a target="_blank" rel="noopener" href="https://kovan.etherscan.io/tx/0x7c72613fca4440b7775d08fde6beeba0e428a975cdf58a912ee76cb0e1ea87af">https://kovan.etherscan.io/tx/0x7c72613fca4440b7775d08fde6beeba0e428a975cdf58a912ee76cb0e1ea87af</a></p>
+<p>转账都失败，判定漏洞已修复。</p>
+<p>最终，黑客向交易所进行充值，获得证据</p>
+<p><a target="_blank" rel="noopener" href="https://etherscan.io/tx/0x18bd80b810f6a6b6d397901d677657d39f8471069bcb7cfbf490c1946dfd617d">https://etherscan.io/tx/0x18bd80b810f6a6b6d397901d677657d39f8471069bcb7cfbf490c1946dfd617d</a></p>
+<p>Guard安全修复合约即刻部署，黑客相关地址予以禁止转账处理。</p>
+<p>ATN将在交易所配合的情况下向黑客进行追踪，并保留向执法机构报案的权利。基金会<a target="_blank" rel="noopener" href="https://etherscan.io/tx/0xd8bfe8948259a0de2d28d14c6e45bda41ea09dc557ef38765964d6816c6bea8a">销毁</a> 1100w ATN，恢复 ATN 总量，并将在主链上线时对黑客地址内的资产予以剔除。</p>
+<p>由于 ATN 合约设计增加多项功能及治理机制，增加了审计的难度和复杂度，在发布到链上之前进行的几次内部和外部审计均未发现该漏洞。</p>
+<p>攻击发生后，ATN技术团队及时察觉极速反应并部署了ATN Token合约的防御措施并迅速修复了此未知漏洞；在实时监测到黑客将资金转入交易所地址基本可断定为黑客攻击（而非白帽行为）后，跟相关交易所协商追踪黑客信息并保留追责权利。</p>
+<p>合约的安全审计，仅依靠开发者的经验和能力总有隐患，过去业内的几次合约漏洞事件也说明了这个问题。将来我们需要有更多的类似形式化验证的工具来帮助开发者发现潜在问题，从而编写更加健壮的合约。</p>
+<h4 id="对其他以太坊Token合约的预警"><a href="#对其他以太坊Token合约的预警" class="headerlink" title="对其他以太坊Token合约的预警:"></a>对其他以太坊Token合约的预警:</h4><p>所有同时用到类似ERC223推荐实现的custom_fallback和ds-auth的合约，或者说内置有其他权限控制得合约，很可能也存在这个漏洞，需要检查确认。</p>
+<p>ERC223的这个custom_fallback 的call处理，可以让public获取Token合约的this作为msg.sender调用其他方法(虽然参数限定，但是也可以通过编码的方式hack)，另外ds-auth默认是this可以获得授权，这边有一些争议，是否ds-auth默认授权范围太大。</p>
+<p><strong>2.大量代币使用不安全代码</strong></p>
+<p>对于第二种利用模型，在目前公开的智能合约中，仍有不少合约使用这种不安全的代码，为了实现通知接收方以完成后续的操作，加入了一个高度自由的回调函数方法。以下是存在安全隐患的代码片段：</p>
+<p>(etherscan: <a target="_blank" rel="noopener" href="https://etherscan.io/address/0xbe803e33c0bbd4b672b97158ce21f80c0b6f3aa6#code">https://etherscan.io/address/0xbe803e33c0bbd4b672b97158ce21f80c0b6f3aa6#code</a>)</p>
+<pre><code>...
+function transfer(address _to, uint256 _value) public returns (bool success) {
+    require(_to != address(0));
+    require(_value &lt;= balances[msg.sender]);
+    require(balances[_to] + _value &gt; balances[_to]);
+    balances[msg.sender] -= _value;
+    balances[_to] += _value;
+    Transfer(msg.sender, _to, _value);
+    return true;
+}
+
+...
+
+function approveAndCallcode(address _spender, uint256 _value, bytes _extraData) public returns (bool success) {
+    allowed[msg.sender][_spender] = _value;
+    Approval(msg.sender, _spender, _value);
+    if(!_spender.call(_extraData)) { revert(); }
+    return true;
+}
+...
+</code></pre>
+<p>黑客通过调用 <code>approveAndCallcode()</code> 函数，将合约地址作为 <code>_spender</code> 参数，并将 <code>transfer()</code> 的调用转换为字节序列作为 <code>_extraData</code> 参数，最终调用 <code>transfer()</code> 函数。在 <code>transfer()</code> 函数中，<code>_to</code> 参数为黑客的地址，而此时 <code>msg.sender</code> 的值已经是合约本身的地址了，黑客通过这种方式，成功窃取了合约地址中的代币。</p>
+<p>黑客攻击链：</p>
+<p><img src="https://raw.githubusercontent.com/kdlwtrdrgm/kdlwtrdrgm.github.io/img/image-20210803221925827.png"></p>
+<p><strong>对于上述所描述的安全问题目前还不能造成直接的经济损失。在对这类智能合约的审计过程中，发现目前大量的代币合约不会使用到合约本身的地址作为存储单元，也就是说 合约地址所对应的代币量为 0 (<code>balances[address(this)] == 0</code>)。但这种不安全的代码很难猜测到在后续的发展中，会引起什么样的问题，应该保持关注并避免这种不安全的代码。</strong></p>
+<h3 id="callcode-安全问题"><a href="#callcode-安全问题" class="headerlink" title="callcode 安全问题"></a>callcode 安全问题</h3><blockquote>
+<p>callcode: 调用后内置变量 <code>msg</code> 的值<strong>会修改</strong>为调用者，但执行环境为<strong>调用者</strong>的运行环境。</p>
+</blockquote>
+<p>由于 <code>callcode</code> 同时包含了 <code>call</code> 和 <code>delegatecall</code> 的特性，通过上文对 <code>call</code> 和 <code>delegatecall</code> 的安全问题进行了分析和举例，可以得出的结论是 <code>call</code> 和 <code>delegatecall</code> 存在的安全问题将同时存在于 <code>callcode</code> 中，这里不再进行详细的分析。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>目前，区块链技术极高的热度促使该技术不断的投入到了生产环境中，但还没有完整的技术流水线，也没有统一的行业规范，同时 Solidity 语言现在版本为 <code>0.4.25</code>，还没有发布第一个正式版本，导致基于区块链技术的产品出现各种安全漏洞，部分漏洞可以直接造成经济损失。</p>
+<p>针对文中所提到的安全隐患，这里给开发者几个建议：</p>
+<ol>
+<li><code>call</code>、<code>callcode</code>、<code>delegatecall</code>调用的自由度极大，并且 <code>call</code> 会发生 <code>msg</code> 值的改变，需要谨慎的使用这些底层的函数；同时在使用时，需要对调用的合约地址、可调用的函数做严格的限制。</li>
+<li><code>call</code> 与 <code>callcode</code> 调用会改变 <code>msg</code> 的值，会修改 <code>msg.sender</code> 为调用者合约的地址，所以在合约中不能轻易将合约本身的地址作为可信地址。</li>
+<li><code>delegatecall</code> 与 <code>callcode</code> 会拷贝目标代码到自己的环境中执行，所以调用的函数应该做严格的限制，避开调用任意函数的隐患。</li>
+<li>智能合约在部署前必须通过严格的审计和测试。</li>
+</ol>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在发送邮件至kdlwtrdrgm@gmail.com反馈 </span>
+    </div>
+</article>
+
+
+
+
+
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+<script type="text/javascript">
+    $.getScript('/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: 'e1ad7d437d90b80454c9',
+            clientSecret: 'cacc77aedea1481472310b2dc1d675790cec10db',
+            repo: 'kdlwtrdrgm.github.io',
+            owner: 'kdlwtrdrgm',
+            admin: ['kdlwtrdrgm'],
+            id: decodeURI(location.pathname),
+            distractionFreeMode: 'false',
+            language: 'zh-CN',
+            proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token',
+            perPage: parseInt('10S',10)
+        })
+        gitalk.render('comments')
+    })
+</script>
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry"><span class="miit">
+                <img src="/img/gov.png" title="中华人民共和国工业和信息化部">
+                <a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">川ICP证030173号</a>
+        </span>
+    
+    ©2017 KW
+</p>
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+        $('pre code').each(function(){
+            var lines = $(this).text().trim().split('\n').length, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+        /* 渲染*/
+        function HTMLDecode(text) {
+            var temp = document.createElement("div");
+            temp.innerHTML = text;
+            var output = temp.innerText || temp.textContent;
+            temp = null;
+            return output;
+        }
+        if (window.mermaid){
+            window.mermaid = null
+        }
+        $.getScript("//cdn.jsdelivr.net/npm/mermaid@8.4.2/dist/mermaid.min.js", function () {
+            var mermaidOptions = JSON.parse(HTMLDecode("{&#34;theme&#34;:&#34;default&#34;,&#34;startOnLoad&#34;:true,&#34;flowchart&#34;:{&#34;useMaxWidth&#34;:false,&#34;htmlLabels&#34;:true}}"))
+            if (window.mermaid) {
+                mermaid.initialize(mermaidOptions)
+                mermaid.contentLoaded()
+            }
+        })
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: ;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+
+</html>

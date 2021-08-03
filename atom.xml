@@ -6,7 +6,7 @@
   <link href="https://kdlwtrdrgm.github.io/atom.xml" rel="self"/>
   
   <link href="https://kdlwtrdrgm.github.io/"/>
-  <updated>2021-08-02T11:25:44.688Z</updated>
+  <updated>2021-08-03T05:59:32.924Z</updated>
   <id>https://kdlwtrdrgm.github.io/</id>
   
   <author>
@@ -17,34 +17,109 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>未命名</title>
-    <link href="https://kdlwtrdrgm.github.io/%E6%9C%AA%E5%88%86%E7%B1%BB/test/"/>
-    <id>https://kdlwtrdrgm.github.io/%E6%9C%AA%E5%88%86%E7%B1%BB/test/</id>
+    <title>钓鱼式攻击</title>
+    <link href="https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%92%93%E9%B1%BC%E5%BC%8F%E6%94%BB%E5%87%BB/"/>
+    <id>https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%92%93%E9%B1%BC%E5%BC%8F%E6%94%BB%E5%87%BB/</id>
+    <published>2021-08-03T03:33:59.000Z</published>
+    <updated>2021-08-03T05:59:32.924Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;钓鱼式攻击&quot;&gt;&lt;a href=&quot;#钓鱼式攻击&quot; class=&quot;headerlink&quot; title=&quot;钓鱼式攻击&quot;&gt;&lt;/a&gt;钓鱼式攻击&lt;/h2&gt;&lt;p&gt;虽然原理很简单，混淆可能导致钓鱼式攻击，如&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="以太坊" scheme="https://kdlwtrdrgm.github.io/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+    
+    
+    <category term="随笔" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>构造函数失控</title>
+    <link href="https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%A4%B1%E6%8E%A7/"/>
+    <id>https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E5%A4%B1%E6%8E%A7/</id>
+    <published>2021-08-03T02:33:59.000Z</published>
+    <updated>2021-08-03T14:40:50.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;构造函数失控&quot;&gt;&lt;a href=&quot;#构造函数失控&quot; class=&quot;headerlink&quot; title=&quot;构造函数失控&quot;&gt;&lt;/a&gt;构造函数失控&lt;/h2&gt;&lt;p&gt;构造函数（Constructors）是特殊函数，在初始化合约时经常执行关键的权限任务。在 solidity</summary>
+        
+      
+    
+    
+    
+    <category term="以太坊" scheme="https://kdlwtrdrgm.github.io/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+    
+    
+    <category term="随笔" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fallback函数</title>
+    <link href="https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Fallback%E5%87%BD%E6%95%B0/"/>
+    <id>https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Fallback%E5%87%BD%E6%95%B0/</id>
     <published>2021-08-02T08:43:59.000Z</published>
-    <updated>2021-08-02T11:25:44.688Z</updated>
+    <updated>2021-08-03T02:11:27.506Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;f&lt;/p&gt;
-&lt;p&gt;发生的撒地方阿斯顿&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h2 id=&quot;Fallback函数&quot;&gt;&lt;a href=&quot;#Fallback函数&quot; class=&quot;headerlink&quot; title=&quot;Fallback函数&quot;&gt;&lt;/a&gt;Fallback函数&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="未分类" scheme="https://kdlwtrdrgm.github.io/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/"/>
+    <category term="以太坊" scheme="https://kdlwtrdrgm.github.io/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
     
+    
+    <category term="随笔" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Call,delegatecall,callcode函数簇</title>
+    <link href="https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Call,delegatecall,callcode%E5%87%BD%E6%95%B0%E7%B0%87/"/>
+    <id>https://kdlwtrdrgm.github.io/%E4%BB%A5%E5%A4%AA%E5%9D%8A/%E5%8C%BA%E5%9D%97%E9%93%BE/Call,delegatecall,callcode%E5%87%BD%E6%95%B0%E7%B0%87/</id>
+    <published>2021-08-02T08:43:59.000Z</published>
+    <updated>2021-08-03T14:20:51.400Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Call-delegatecall-callcode函数簇&quot;&gt;&lt;a href=&quot;#Call-delegatecall-callcode函数簇&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="以太坊" scheme="https://kdlwtrdrgm.github.io/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+    
+    
+    <category term="随笔" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>跨链与侧链</title>
-    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"/>
-    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/</id>
+    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/"/>
+    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/Ethernaut-%E6%B3%A2%E5%8D%A1%E5%92%8CCOMCOS/</id>
     <published>2021-07-27T16:01:00.000Z</published>
     <updated>2021-08-02T12:50:35.575Z</updated>
     
@@ -62,8 +137,8 @@
   
   <entry>
     <title>闪电贷攻防和智能合约审计</title>
-    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"/>
-    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/</id>
+    <link href="https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/"/>
+    <id>https://kdlwtrdrgm.github.io/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%8C%BA%E5%9D%97%E9%93%BE/%E9%97%AA%E7%94%B5%E8%B4%B7%E6%94%BB%E9%98%B2%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%AE%A1%E8%AE%A1/</id>
     <published>2021-07-27T16:00:00.000Z</published>
     <updated>2021-08-02T12:50:22.872Z</updated>
     
@@ -81,8 +156,8 @@
   
   <entry>
     <title>Hello Ethernaut第0关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/0.Ethernaut-Hello%20Ethernaut/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/0.Ethernaut-Hello%20Ethernaut/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/0.Ethernaut-Hello%20Ethernaut/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/0.Ethernaut-Hello%20Ethernaut/</id>
     <published>2021-07-27T09:17:00.000Z</published>
     <updated>2021-08-02T08:27:30.394Z</updated>
     
@@ -100,10 +175,10 @@
   
   <entry>
     <title>Fall Out第1关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/1.Ethernaut-Fallback/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/1.Ethernaut-Fallback/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/1.Ethernaut-Fallback/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/1.Ethernaut-Fallback/</id>
     <published>2021-07-26T10:55:00.000Z</published>
-    <updated>2021-08-02T13:22:55.742Z</updated>
+    <updated>2021-08-03T02:24:25.990Z</updated>
     
     
     <summary type="html">第1关</summary>
@@ -119,10 +194,10 @@
   
   <entry>
     <title>Fall Back第2关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/2.Ethernaut-Fall%20out/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/2.Ethernaut-Fall%20out/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/2.Ethernaut-Fall%20out/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/2.Ethernaut-Fall%20out/</id>
     <published>2021-07-26T08:31:00.000Z</published>
-    <updated>2021-08-02T08:27:30.402Z</updated>
+    <updated>2021-08-03T02:28:15.029Z</updated>
     
     
     <summary type="html">第2关</summary>
@@ -138,10 +213,10 @@
   
   <entry>
     <title>Coin Flip第3关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/3.Ethernaut-Coin%20Filp/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/3.Ethernaut-Coin%20Filp/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/3.Ethernaut-Coin%20Filp/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/3.Ethernaut-Coin%20Filp/</id>
     <published>2021-07-26T05:40:00.000Z</published>
-    <updated>2021-08-02T08:27:30.404Z</updated>
+    <updated>2021-08-03T03:05:03.256Z</updated>
     
     
     <summary type="html">第3关</summary>
@@ -157,10 +232,10 @@
   
   <entry>
     <title>Telephone第4关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/4.Ethernaut-Telephone/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/4.Ethernaut-Telephone/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/4.Ethernaut-Telephone/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/4.Ethernaut-Telephone/</id>
     <published>2021-07-24T03:33:00.000Z</published>
-    <updated>2021-08-02T08:27:30.405Z</updated>
+    <updated>2021-08-03T03:11:45.137Z</updated>
     
     
     <summary type="html">第4关</summary>
@@ -176,10 +251,10 @@
   
   <entry>
     <title>Token第5关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/5.Ethernaut-Token/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/5.Ethernaut-Token/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/5.Ethernaut-Token/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/5.Ethernaut-Token/</id>
     <published>2021-07-23T07:27:00.000Z</published>
-    <updated>2021-08-02T08:27:30.406Z</updated>
+    <updated>2021-08-03T06:07:48.684Z</updated>
     
     
     <summary type="html">第5关</summary>
@@ -195,10 +270,10 @@
   
   <entry>
     <title>Delegation第6关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/6.Ethernaut-Delegation/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/6.Ethernaut-Delegation/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/6.Ethernaut-Delegation/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/6.Ethernaut-Delegation/</id>
     <published>2021-07-23T03:19:00.000Z</published>
-    <updated>2021-08-02T08:27:30.406Z</updated>
+    <updated>2021-08-03T06:08:33.261Z</updated>
     
     
     <summary type="html">第6关</summary>
@@ -214,8 +289,8 @@
   
   <entry>
     <title>Force第7关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/7.Ethernaut-Force/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/7.Ethernaut-Force/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/7.Ethernaut-Force/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/7.Ethernaut-Force/</id>
     <published>2021-07-22T17:49:00.000Z</published>
     <updated>2021-08-02T08:27:30.407Z</updated>
     
@@ -233,8 +308,8 @@
   
   <entry>
     <title>Vault第8关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/8.Ethernaut-Vault/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/8.Ethernaut-Vault/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/8.Ethernaut-Vault/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/8.Ethernaut-Vault/</id>
     <published>2021-07-21T10:22:00.000Z</published>
     <updated>2021-08-02T08:27:30.407Z</updated>
     
@@ -252,10 +327,10 @@
   
   <entry>
     <title>King第9关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/9.Ethernaut-King/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/9.Ethernaut-King/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/9.Ethernaut-King/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/9.Ethernaut-King/</id>
     <published>2021-07-21T08:52:00.000Z</published>
-    <updated>2021-08-02T08:27:30.408Z</updated>
+    <updated>2021-08-03T11:47:15.794Z</updated>
     
     
     <summary type="html">第9关</summary>
@@ -271,8 +346,8 @@
   
   <entry>
     <title>Re-Entrancy第10关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/10.Ethernaut-Re-entrancy/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/10.Ethernaut-Re-entrancy/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/10.Ethernaut-Re-entrancy/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/10.Ethernaut-Re-entrancy/</id>
     <published>2021-07-21T06:45:00.000Z</published>
     <updated>2021-08-02T08:27:30.396Z</updated>
     
@@ -290,8 +365,8 @@
   
   <entry>
     <title>Elevator第11关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/11.Ethernaut-Elevator/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/11.Ethernaut-Elevator/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/11.Ethernaut-Elevator/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/11.Ethernaut-Elevator/</id>
     <published>2021-07-21T02:27:00.000Z</published>
     <updated>2021-08-02T08:27:30.397Z</updated>
     
@@ -309,8 +384,8 @@
   
   <entry>
     <title>Privacy第12关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/12.Ethernaut-Privacy/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/12.Ethernaut-Privacy/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/12.Ethernaut-Privacy/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/12.Ethernaut-Privacy/</id>
     <published>2021-07-20T10:13:00.000Z</published>
     <updated>2021-08-02T08:27:30.397Z</updated>
     
@@ -328,70 +403,13 @@
   
   <entry>
     <title>Gatekeeper One第13关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/13.Ethernaut-Gatekeeper%20One/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/13.Ethernaut-Gatekeeper%20One/</id>
+    <link href="https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/13.Ethernaut-Gatekeeper%20One/"/>
+    <id>https://kdlwtrdrgm.github.io/Ethernaut/Ethernaut/13.Ethernaut-Gatekeeper%20One/</id>
     <published>2021-07-20T07:59:00.000Z</published>
     <updated>2021-08-02T08:27:30.398Z</updated>
     
     
     <summary type="html">第13关</summary>
-    
-    
-    
-    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
-    
-    
-    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Gatekeeper Two第14关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/14.Ethernaut-Gatekeeper%20Two/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/14.Ethernaut-Gatekeeper%20Two/</id>
-    <published>2021-07-20T05:19:00.000Z</published>
-    <updated>2021-08-02T08:27:30.399Z</updated>
-    
-    
-    <summary type="html">第14关</summary>
-    
-    
-    
-    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
-    
-    
-    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Naught Coin第15关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/15.Ethernaut-Naught%20Coin/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/15.Ethernaut-Naught%20Coin/</id>
-    <published>2021-07-20T02:51:00.000Z</published>
-    <updated>2021-08-02T08:27:30.398Z</updated>
-    
-    
-    <summary type="html">第15关</summary>
-    
-    
-    
-    <category term="Ethernaut" scheme="https://kdlwtrdrgm.github.io/categories/Ethernaut/"/>
-    
-    
-    <category term="靶场" scheme="https://kdlwtrdrgm.github.io/tags/%E9%9D%B6%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Preservation第16关练习</title>
-    <link href="https://kdlwtrdrgm.github.io/Ethernaut/16.Ethernaut-Preservation/"/>
-    <id>https://kdlwtrdrgm.github.io/Ethernaut/16.Ethernaut-Preservation/</id>
-    <published>2021-07-18T11:28:00.000Z</published>
-    <updated>2021-08-02T08:27:30.400Z</updated>
-    
-    
-    <summary type="html">第16关</summary>
     
     
     
